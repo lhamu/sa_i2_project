@@ -1,0 +1,2156 @@
+{
+"record": {
+"status": "success",
+"data": {
+"resultType": "vector",
+"result": [
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "alertmanager",
+"endpoint": "https-metrics",
+"id": "/kubepods/burstable/poda6a84786-e6c1-4664-bc88-d47352abaf94/921e619fb6c7fa2aa3b7d1071f553b59abef89d33b288fc74edf1ed7f8fbc263",
+"image": "quay.io/prometheus/alertmanager:v0.25.0",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "921e619fb6c7fa2aa3b7d1071f553b59abef89d33b288fc74edf1ed7f8fbc263",
+"namespace": "monitoring",
+"node": "worker-nbg1-1",
+"pod": "alertmanager-kube-prometheus-stack-alertmanager-0",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"32219136"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "cer-plus-affiliazione-frontend",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod28c4cdec-b506-436a-acb7-cc7b4d5e4782/4854174cf15e62081f6fb3d82a642d8559bb9f4c508eb1bf56401ae989d9d20a",
+"image": "registry.vivieb.it/cer-plus/cer-plus-affiliazione-frontend:0.67.0-rc.21",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "4854174cf15e62081f6fb3d82a642d8559bb9f4c508eb1bf56401ae989d9d20a",
+"namespace": "apps",
+"node": "worker-nbg1-1",
+"pod": "cer-plus-affiliazione-frontend-app-585cc59fd-2vhcc",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"190550016"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "cer-plus-affiliazione-frontend",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod5f564b96-dbf5-4f43-b588-a647b47d1c52/5073065c2be82b27ec7aad0094a6c6319334b1e088955f1c39554073b18654a0",
+"image": "registry.vivieb.it/cer-plus/cer-plus-affiliazione-frontend:0.67.0-rc.21",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "5073065c2be82b27ec7aad0094a6c6319334b1e088955f1c39554073b18654a0",
+"namespace": "apps",
+"node": "worker-nbg1-2",
+"pod": "cer-plus-affiliazione-frontend-app-585cc59fd-jtw98",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"205975552"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "cer-plus-member-frontend",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod898a32be-1ff5-42cb-a089-7902e999fe9e/c284c5b79f6b838cbcf61ccd52315181cb7e354f8ed6a774f763f84c5c258cb7",
+"image": "registry.vivieb.it/cer-plus/cer-plus-member-frontend:0.78.0-rc.245",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "c284c5b79f6b838cbcf61ccd52315181cb7e354f8ed6a774f763f84c5c258cb7",
+"namespace": "apps",
+"node": "worker-nbg1-2",
+"pod": "cer-plus-member-frontend-app-56ddccc764-p4s8d",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"224632832"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "cer-plus-member-frontend",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/poda4cae5f5-645e-41e5-bbaf-94906e4be116/849aa6a443973e63671db939cef6e3a6025cd10467915177b1c7ac2262b520c9",
+"image": "registry.vivieb.it/cer-plus/cer-plus-member-frontend:0.78.0-rc.245",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "849aa6a443973e63671db939cef6e3a6025cd10467915177b1c7ac2262b520c9",
+"namespace": "apps",
+"node": "worker-nbg1-1",
+"pod": "cer-plus-member-frontend-app-56ddccc764-bvkns",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"229113856"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "cer-plus-operator-frontend",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod00e68ea7-9e98-4a23-83e7-097403a96d2b/149be45cebc6fb103f54c8c807543acb6f89b2433f6531bbd783025ecba75736",
+"image": "registry.vivieb.it/cer-plus/cer-plus-operator-frontend:0.93.0-rc.310",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "149be45cebc6fb103f54c8c807543acb6f89b2433f6531bbd783025ecba75736",
+"namespace": "apps",
+"node": "worker-nbg1-1",
+"pod": "cer-plus-operator-frontend-app-74c48587bb-tpn7x",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"237072384"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "cer-plus-operator-frontend",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/podf427b53b-723e-4180-91fb-21624d7acd1e/a298f6874a8f1a9a2292ec5664243c6fd2b4ebedaacd85679029011441d43ea3",
+"image": "registry.vivieb.it/cer-plus/cer-plus-operator-frontend:0.93.0-rc.310",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "a298f6874a8f1a9a2292ec5664243c6fd2b4ebedaacd85679029011441d43ea3",
+"namespace": "apps",
+"node": "worker-nbg1-2",
+"pod": "cer-plus-operator-frontend-app-74c48587bb-5lldp",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"247328768"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "cer-plus-schedulers",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod253e7f96-e258-4d2c-bd33-a0a66743a0ea/0dca8795df6703a01e703fec434c9e5edfbf2b428373881acdabe1cf11c3fde6",
+"image": "registry.vivieb.it/cer-plus/cer-plus-schedulers:0.40.0-rc.175",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "0dca8795df6703a01e703fec434c9e5edfbf2b428373881acdabe1cf11c3fde6",
+"namespace": "apps",
+"node": "worker-nbg1-1",
+"pod": "cer-plus-schedulers-app-786984d5db-fk8dz",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"193892352"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "cer-plus-schedulers",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod35a1eff0-e088-493c-b009-200816a452c2/12b90100335b1454d40d8f964294df0595d4e4e383ef79d8bc946c8b2b903d76",
+"image": "registry.vivieb.it/cer-plus/cer-plus-schedulers:0.40.0-rc.175",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "12b90100335b1454d40d8f964294df0595d4e4e383ef79d8bc946c8b2b903d76",
+"namespace": "apps",
+"node": "worker-nbg1-2",
+"pod": "cer-plus-schedulers-app-786984d5db-hqmz4",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"165031936"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "cer-plus-service",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod5f7bc06e-4edf-4972-9020-d0470ca18488/70f1cb4495416e84569aad514fe75e4960cd6929b776cf8d94e29eb6d476daac",
+"image": "registry.vivieb.it/cer-plus/cer-plus-service:0.189.0-rc.852",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "70f1cb4495416e84569aad514fe75e4960cd6929b776cf8d94e29eb6d476daac",
+"namespace": "apps",
+"node": "worker-nbg1-1",
+"pod": "cer-plus-service-app-fcd4465bd-nfkkh",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"254447616"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "cer-plus-service",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod8ae88416-2d40-4be8-89c1-66a26aca3b63/5718983f2951386c7ece5db59f5f956fb129c74465705896eff2675c68e66372",
+"image": "registry.vivieb.it/cer-plus/cer-plus-service:0.189.0-rc.852",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "5718983f2951386c7ece5db59f5f956fb129c74465705896eff2675c68e66372",
+"namespace": "apps",
+"node": "worker-nbg1-2",
+"pod": "cer-plus-service-app-fcd4465bd-ztks7",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"247029760"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "cert-approver",
+"endpoint": "https-metrics",
+"id": "/kubepods/burstable/pod57c42790-9587-4e25-b37d-73aa5d71ea51/61608a91a0819a70caac8e6114d4464240d5ad2859d1aeb0e042e3330a04dd2c",
+"image": "ghcr.io/alex1989hu/kubelet-serving-cert-approver:main",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "61608a91a0819a70caac8e6114d4464240d5ad2859d1aeb0e042e3330a04dd2c",
+"namespace": "kubelet-serving-cert-approver",
+"node": "controlplane-nbg1-1",
+"pod": "kubelet-serving-cert-approver-7ddfd4469b-9zq6m",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"25837568"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "cert-manager-cainjector",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pode8d73c2b-3bbc-4ba8-87ba-86a88dde19f0/f9772ab3713cd8058f73482a48b93004eb25d6119af7de18c1af3e8d86366e90",
+"image": "quay.io/jetstack/cert-manager-cainjector:v1.13.3",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "f9772ab3713cd8058f73482a48b93004eb25d6119af7de18c1af3e8d86366e90",
+"namespace": "cert-manager",
+"node": "worker-nbg1-2",
+"pod": "cert-manager-cainjector-5c8d6f6646-92txb",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"57266176"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "cert-manager-controller",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/podee06d271-f11c-453f-9f68-99007c57a7c2/c8e49321a31793dfd046c22255cc239bfc5b52b5215a1dbfabbc98192b554233",
+"image": "quay.io/jetstack/cert-manager-controller:v1.13.3",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "c8e49321a31793dfd046c22255cc239bfc5b52b5215a1dbfabbc98192b554233",
+"namespace": "cert-manager",
+"node": "worker-nbg1-1",
+"pod": "cert-manager-8db45d64b-jxlrs",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"29859840"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "cert-manager-webhook",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod2b81580c-f4d2-4c14-8ab0-01eec7395426/80a78d68e598afa1dedde12a8867c3a0f1d028d2daa6d2793a56b18dcbc598ff",
+"image": "quay.io/jetstack/cert-manager-webhook:v1.13.3",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "80a78d68e598afa1dedde12a8867c3a0f1d028d2daa6d2793a56b18dcbc598ff",
+"namespace": "cert-manager",
+"node": "worker-nbg1-2",
+"pod": "cert-manager-webhook-7c7d969c76-czltk",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"17948672"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "config-reloader",
+"endpoint": "https-metrics",
+"id": "/kubepods/burstable/pod4ecea42c-e6fc-4196-9f5e-08c3998678fc/3434c888f38a08480df820e4dbf7c0380cadfa7a7dbbdb9839b44fb69c4ce0e0",
+"image": "quay.io/prometheus-operator/prometheus-config-reloader:v0.65.1",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "3434c888f38a08480df820e4dbf7c0380cadfa7a7dbbdb9839b44fb69c4ce0e0",
+"namespace": "monitoring",
+"node": "worker-nbg1-1",
+"pod": "prometheus-kube-prometheus-stack-prometheus-0",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"6815744"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "config-reloader",
+"endpoint": "https-metrics",
+"id": "/kubepods/burstable/pod9dd17ead-ce23-4b4f-9cd9-98f77a88a26a/5912ec28135b6e5927071f2c74070785df08a496fbd8695d2ef256e1585868c1",
+"image": "ghcr.io/kube-logging/config-reloader:v0.0.5",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "5912ec28135b6e5927071f2c74070785df08a496fbd8695d2ef256e1585868c1",
+"namespace": "logging",
+"node": "worker-nbg1-2",
+"pod": "apps-logging-fluentd-0",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"2416640"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "config-reloader",
+"endpoint": "https-metrics",
+"id": "/kubepods/burstable/poda6a84786-e6c1-4664-bc88-d47352abaf94/25ccb8687135a40b5f5115be32016d7483b00ba016fab53441245f7695596d4c",
+"image": "quay.io/prometheus-operator/prometheus-config-reloader:v0.65.1",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "25ccb8687135a40b5f5115be32016d7483b00ba016fab53441245f7695596d4c",
+"namespace": "monitoring",
+"node": "worker-nbg1-1",
+"pod": "alertmanager-kube-prometheus-stack-alertmanager-0",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"9072640"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "controller",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod8cbb9fb6-d8d9-4716-85b6-a02bb0e2b9d7/8a49023e8f28fd2fc17bec8b55a15ee8451263a49e79290ec9e0fdb34ad8e0d5",
+"image": "docker.io/bitnami/sealed-secrets-controller:v0.20.5",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "8a49023e8f28fd2fc17bec8b55a15ee8451263a49e79290ec9e0fdb34ad8e0d5",
+"namespace": "sealed-secrets",
+"node": "controlplane-nbg1-1",
+"pod": "sealed-secrets-668676cb45-bvsdv",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"33665024"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "controller",
+"endpoint": "https-metrics",
+"id": "/kubepods/burstable/pod2ab3c8a8-f548-4d20-9ec8-9da7f7b12f3f/bade2319d8807e24c70dcf97618ddb7b3a224274867ccb830e0ac972ecd6753e",
+"image": "registry.k8s.io/ingress-nginx/controller@sha256:b3aba22b1da80e7acfc52b115cae1d4c687172cbf2b742d5b502419c25ff340e",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "bade2319d8807e24c70dcf97618ddb7b3a224274867ccb830e0ac972ecd6753e",
+"namespace": "ingress-nginx",
+"node": "worker-nbg1-1",
+"pod": "ingress-nginx-controller-748b9689bf-2kkt2",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"175161344"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "controller",
+"endpoint": "https-metrics",
+"id": "/kubepods/burstable/pod655907a0-2927-4080-a885-a009c8beede8/61336feaa1a4b7aa4b3b23afe6fba9b731e6a151885b86ef1784c3bc182b51a0",
+"image": "registry.k8s.io/ingress-nginx/controller@sha256:b3aba22b1da80e7acfc52b115cae1d4c687172cbf2b742d5b502419c25ff340e",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "61336feaa1a4b7aa4b3b23afe6fba9b731e6a151885b86ef1784c3bc182b51a0",
+"namespace": "ingress-nginx",
+"node": "worker-nbg1-2",
+"pod": "ingress-nginx-controller-748b9689bf-2hbpr",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"164839424"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "coredns",
+"endpoint": "https-metrics",
+"id": "/kubepods/burstable/pod1e6e2c59-172e-4b2f-9211-de5bb60eccdf/b89ee0b54104106d914262b2f9199bbd88aa461dbb8ceeda376c9806aa811232",
+"image": "docker.io/coredns/coredns:1.10.1",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "b89ee0b54104106d914262b2f9199bbd88aa461dbb8ceeda376c9806aa811232",
+"namespace": "kube-system",
+"node": "controlplane-nbg1-1",
+"pod": "coredns-d779cc7ff-rb4kt",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"31809536"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "coredns",
+"endpoint": "https-metrics",
+"id": "/kubepods/burstable/pod83c4c2b1-4c90-4c02-a7fa-6a223c9f097c/f8d93b21c3ebfefe1c2998e6281a59ed2a6403e21713ed83a9c702de43d39d76",
+"image": "docker.io/coredns/coredns:1.10.1",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "f8d93b21c3ebfefe1c2998e6281a59ed2a6403e21713ed83a9c702de43d39d76",
+"namespace": "kube-system",
+"node": "controlplane-nbg1-1",
+"pod": "coredns-d779cc7ff-spxvm",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"32096256"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "csi-attacher",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/poda8805515-7c88-4125-9205-095c9bba84a5/9051f85439c47c41d1bc70b68036c180b74d71142b167a1318d8cf7000378074",
+"image": "registry.k8s.io/sig-storage/csi-attacher:v4.1.0",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "9051f85439c47c41d1bc70b68036c180b74d71142b167a1318d8cf7000378074",
+"namespace": "kube-system",
+"node": "controlplane-nbg1-1",
+"pod": "hcloud-csi-controller-76b94f8979-mn6jt",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"26431488"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "csi-node-driver-registrar",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod1cc50115-90d6-4d2f-aaef-9b29fb796c0e/8a397b8f20ed6ff0404fee1648cf5704483a63ec170fe9543598a9179fa9bcf2",
+"image": "registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.7.0",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "8a397b8f20ed6ff0404fee1648cf5704483a63ec170fe9543598a9179fa9bcf2",
+"namespace": "kube-system",
+"node": "worker-nbg1-2",
+"pod": "hcloud-csi-node-79k96",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"11128832"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "csi-node-driver-registrar",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod6a5c1806-a3d2-4265-9044-f3380e288a68/e6cc4fbc9d3232522a0ab2bb296972d8376e2975d5d6fd4cc5ea5ebe8c7c9ab0",
+"image": "registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.7.0",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "e6cc4fbc9d3232522a0ab2bb296972d8376e2975d5d6fd4cc5ea5ebe8c7c9ab0",
+"namespace": "kube-system",
+"node": "controlplane-nbg1-1",
+"pod": "hcloud-csi-node-lvhlt",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"4411392"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "csi-node-driver-registrar",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/podf8a16034-11f7-4893-8011-44bd53f344df/7f102f1f91533a234fec34152ac60bbbed98fc7ef3dff848e2b29d229fc5ac48",
+"image": "registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.7.0",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "7f102f1f91533a234fec34152ac60bbbed98fc7ef3dff848e2b29d229fc5ac48",
+"namespace": "kube-system",
+"node": "worker-nbg1-1",
+"pod": "hcloud-csi-node-8xhhp",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"12488704"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "csi-provisioner",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/poda8805515-7c88-4125-9205-095c9bba84a5/ade507fc40da096ff8248bdcd7f528255decf99290f8f50dad5faa16267d7d68",
+"image": "registry.k8s.io/sig-storage/csi-provisioner:v3.4.0",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "ade507fc40da096ff8248bdcd7f528255decf99290f8f50dad5faa16267d7d68",
+"namespace": "kube-system",
+"node": "controlplane-nbg1-1",
+"pod": "hcloud-csi-controller-76b94f8979-mn6jt",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"31465472"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "csi-resizer",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/poda8805515-7c88-4125-9205-095c9bba84a5/7246f93bde616803e50f1d3736a6034ada8487af1e7650c6f6008d2bf5286ef0",
+"image": "registry.k8s.io/sig-storage/csi-resizer:v1.7.0",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "7246f93bde616803e50f1d3736a6034ada8487af1e7650c6f6008d2bf5286ef0",
+"namespace": "kube-system",
+"node": "controlplane-nbg1-1",
+"pod": "hcloud-csi-controller-76b94f8979-mn6jt",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"31604736"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "elasticsearch",
+"endpoint": "https-metrics",
+"id": "/kubepods/poddec1c9da-b661-4ced-85ca-f8582b14edd4/06017ebd8a0159c487b156a352cf947cd4c46648174292fec189440c77822ca2",
+"image": "docker.elastic.co/elasticsearch/elasticsearch:8.7.1",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "06017ebd8a0159c487b156a352cf947cd4c46648174292fec189440c77822ca2",
+"namespace": "elastic",
+"node": "worker-nbg1-2",
+"pod": "elasticsearch-es-master-0",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"2140393472"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "fluent-bit",
+"endpoint": "https-metrics",
+"id": "/kubepods/burstable/pod07513eda-a4ce-4ce2-9d7f-02173e7d75cc/3ad61521e967f900ac4b95a87c4bfa32490ec8c18d5fb60c9caa0dd2b6fe116f",
+"image": "docker.io/fluent/fluent-bit:2.1.4",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "3ad61521e967f900ac4b95a87c4bfa32490ec8c18d5fb60c9caa0dd2b6fe116f",
+"namespace": "logging",
+"node": "worker-nbg1-2",
+"pod": "apps-logging-fluentbit-vb5rx",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"28229632"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "fluent-bit",
+"endpoint": "https-metrics",
+"id": "/kubepods/burstable/pod29421749-6678-4d24-9899-db3236b7ef87/cad74bb91cbc453d99d49513dddb30c032c4534dccc48f19af16380771eccdff",
+"image": "docker.io/fluent/fluent-bit:2.1.4",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "cad74bb91cbc453d99d49513dddb30c032c4534dccc48f19af16380771eccdff",
+"namespace": "logging",
+"node": "controlplane-nbg1-1",
+"pod": "apps-logging-fluentbit-76kmc",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"23814144"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "fluent-bit",
+"endpoint": "https-metrics",
+"id": "/kubepods/burstable/pod9421b13d-0f2c-44cc-a0a4-9f6fcb55b3a8/3742bf38f49011e6dea881595092ba30a5ba69adfc7aa82ad5e7fe852e3f4156",
+"image": "docker.io/fluent/fluent-bit:2.1.4",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "3742bf38f49011e6dea881595092ba30a5ba69adfc7aa82ad5e7fe852e3f4156",
+"namespace": "logging",
+"node": "worker-nbg1-1",
+"pod": "apps-logging-fluentbit-s5xmm",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"26218496"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "fluentd",
+"endpoint": "https-metrics",
+"id": "/kubepods/burstable/pod9dd17ead-ce23-4b4f-9cd9-98f77a88a26a/795cb01fb9b2567b66567a514b29872a3e6417de5d5f3b7b5fd759003a13ab33",
+"image": "ghcr.io/kube-logging/fluentd:v1.15-ruby3",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "795cb01fb9b2567b66567a514b29872a3e6417de5d5f3b7b5fd759003a13ab33",
+"namespace": "logging",
+"node": "worker-nbg1-2",
+"pod": "apps-logging-fluentd-0",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"202629120"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "grafana",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/podd9e0431f-259e-475d-ac33-d76663d307a1/5bbc7a3ff81af35857a264d8afd45f56b720b1518e86e47993d8c71941e94891",
+"image": "docker.io/grafana/grafana:9.5.2",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "5bbc7a3ff81af35857a264d8afd45f56b720b1518e86e47993d8c71941e94891",
+"namespace": "monitoring",
+"node": "controlplane-nbg1-1",
+"pod": "kube-prometheus-stack-grafana-6b47849ddb-d5r4r",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"139382784"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "grafana-sc-dashboard",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/podd9e0431f-259e-475d-ac33-d76663d307a1/532dcfa4267d4a5960c187eeb53de7894d3c9a4b94f0420c1aa5a8e7bb3d0e35",
+"image": "quay.io/kiwigrid/k8s-sidecar:1.22.0",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "532dcfa4267d4a5960c187eeb53de7894d3c9a4b94f0420c1aa5a8e7bb3d0e35",
+"namespace": "monitoring",
+"node": "controlplane-nbg1-1",
+"pod": "kube-prometheus-stack-grafana-6b47849ddb-d5r4r",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"80998400"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "grafana-sc-datasources",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/podd9e0431f-259e-475d-ac33-d76663d307a1/36cdfdd8a6e9958ca8efb6c5592c0975a242f77348ef5a3e9586416938433ab6",
+"image": "quay.io/kiwigrid/k8s-sidecar:1.22.0",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "36cdfdd8a6e9958ca8efb6c5592c0975a242f77348ef5a3e9586416938433ab6",
+"namespace": "monitoring",
+"node": "controlplane-nbg1-1",
+"pod": "kube-prometheus-stack-grafana-6b47849ddb-d5r4r",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"79695872"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "hcloud-cloud-controller-manager",
+"endpoint": "https-metrics",
+"id": "/kubepods/burstable/pod4ec1d904-a9ef-462f-910c-9108e62a4deb/c47383c675a3187e18336a34b1ab7efcbd217b4706698bc31f2ebb0c875a650f",
+"image": "docker.io/hetznercloud/hcloud-cloud-controller-manager:v1.15.0",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "c47383c675a3187e18336a34b1ab7efcbd217b4706698bc31f2ebb0c875a650f",
+"namespace": "kube-system",
+"node": "controlplane-nbg1-1",
+"pod": "hcloud-cloud-controller-manager-69c646bcb4-f42gx",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"44384256"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "hcloud-csi-driver",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod1cc50115-90d6-4d2f-aaef-9b29fb796c0e/2c170deebe1e30341215ed6725aa463024b5f7b22f94add9da89bfffbfdc9603",
+"image": "docker.io/hetznercloud/hcloud-csi-driver:v2.3.2",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "2c170deebe1e30341215ed6725aa463024b5f7b22f94add9da89bfffbfdc9603",
+"namespace": "kube-system",
+"node": "worker-nbg1-2",
+"pod": "hcloud-csi-node-79k96",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"16732160"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "hcloud-csi-driver",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod6a5c1806-a3d2-4265-9044-f3380e288a68/438cec031edc1f1df8daf27f0bf8e4aa73b41a3839f83d040147c0efed80df4a",
+"image": "docker.io/hetznercloud/hcloud-csi-driver:v2.3.2",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "438cec031edc1f1df8daf27f0bf8e4aa73b41a3839f83d040147c0efed80df4a",
+"namespace": "kube-system",
+"node": "controlplane-nbg1-1",
+"pod": "hcloud-csi-node-lvhlt",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"15081472"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "hcloud-csi-driver",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/poda8805515-7c88-4125-9205-095c9bba84a5/def13c4760e38e1f550125df8579418c50c6dbe2eb62694fb8f240423111d96c",
+"image": "docker.io/hetznercloud/hcloud-csi-driver:v2.3.2",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "def13c4760e38e1f550125df8579418c50c6dbe2eb62694fb8f240423111d96c",
+"namespace": "kube-system",
+"node": "controlplane-nbg1-1",
+"pod": "hcloud-csi-controller-76b94f8979-mn6jt",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"15941632"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "hcloud-csi-driver",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/podf8a16034-11f7-4893-8011-44bd53f344df/7399ceadfebc0573bb6fcbe63fdf32e7a22bccbaee3653d09dc69f5369e59297",
+"image": "docker.io/hetznercloud/hcloud-csi-driver:v2.3.2",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "7399ceadfebc0573bb6fcbe63fdf32e7a22bccbaee3653d09dc69f5369e59297",
+"namespace": "kube-system",
+"node": "worker-nbg1-1",
+"pod": "hcloud-csi-node-8xhhp",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"17477632"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "kibana",
+"endpoint": "https-metrics",
+"id": "/kubepods/podc15452d8-7c1d-46cd-b076-ab2ec9a18d23/fc5fece3493056b634f59c0bf1c68186e0d64361d4e1ea0333d27470796e981a",
+"image": "docker.elastic.co/kibana/kibana:8.7.1",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "fc5fece3493056b634f59c0bf1c68186e0d64361d4e1ea0333d27470796e981a",
+"namespace": "elastic",
+"node": "controlplane-nbg1-1",
+"pod": "kibana-kb-6644dcd7b6-v8d4m",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"401113088"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "kube-apiserver",
+"endpoint": "https-metrics",
+"id": "/kubepods/burstable/pod23507352578ce140fcbdda82dbb242fc/931ac2d41e4c31b0677024174d3606bb44ac15a74e1393e9ee86d42e114a1bff",
+"image": "registry.k8s.io/kube-apiserver:v1.27.0-rc.1",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "931ac2d41e4c31b0677024174d3606bb44ac15a74e1393e9ee86d42e114a1bff",
+"namespace": "kube-system",
+"node": "controlplane-nbg1-1",
+"pod": "kube-apiserver-controlplane-nbg1-1",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"2611298304"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "kube-controller-manager",
+"endpoint": "https-metrics",
+"id": "/kubepods/burstable/pod3e6d7394140c54089e26188a273ef148/787ea90889a7772ad377ff47db78e8a0edd534c0a4ad42f1e0dff4b8cb9b2f86",
+"image": "registry.k8s.io/kube-controller-manager:v1.27.0-rc.1",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "787ea90889a7772ad377ff47db78e8a0edd534c0a4ad42f1e0dff4b8cb9b2f86",
+"namespace": "kube-system",
+"node": "controlplane-nbg1-1",
+"pod": "kube-controller-manager-controlplane-nbg1-1",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"134909952"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "kube-flannel",
+"endpoint": "https-metrics",
+"id": "/kubepods/burstable/pod5f39c2c6-f9df-4d9a-8b78-327f558d31df/c6f559497d466c8973b5a2c3cbafd30e1dac24965d2b28bc77239357b2c79663",
+"image": "ghcr.io/siderolabs/flannel:v0.21.4",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "c6f559497d466c8973b5a2c3cbafd30e1dac24965d2b28bc77239357b2c79663",
+"namespace": "kube-system",
+"node": "worker-nbg1-2",
+"pod": "kube-flannel-gpvbr",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"27070464"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "kube-flannel",
+"endpoint": "https-metrics",
+"id": "/kubepods/burstable/poda7539910-7e52-4d26-a9b5-178436a8aeb3/e61801cbcb657471ab99f078c71f4d3f3a19d358fb7ba25ba3dc8ddfab4cae64",
+"image": "ghcr.io/siderolabs/flannel:v0.21.4",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "e61801cbcb657471ab99f078c71f4d3f3a19d358fb7ba25ba3dc8ddfab4cae64",
+"namespace": "kube-system",
+"node": "controlplane-nbg1-1",
+"pod": "kube-flannel-qs259",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"30326784"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "kube-flannel",
+"endpoint": "https-metrics",
+"id": "/kubepods/burstable/podea0de412-1a10-4ed2-a970-95703f4eb77a/301d8117e7a814394d6f19822ab190678afe7d5d067a1109241e54bee52158ad",
+"image": "ghcr.io/siderolabs/flannel:v0.21.4",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "301d8117e7a814394d6f19822ab190678afe7d5d067a1109241e54bee52158ad",
+"namespace": "kube-system",
+"node": "worker-nbg1-1",
+"pod": "kube-flannel-lgxb6",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"26501120"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "kube-prometheus-stack",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/poda5dc1882-771f-4696-9f70-9cef7472eef4/d23ee654191651fa04ab99e979dff383209d114d674837c966341a7b5db62b7e",
+"image": "quay.io/prometheus-operator/prometheus-operator:v0.65.1",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "d23ee654191651fa04ab99e979dff383209d114d674837c966341a7b5db62b7e",
+"namespace": "monitoring",
+"node": "controlplane-nbg1-1",
+"pod": "kube-prometheus-stack-operator-6cbc867d96-pzhff",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"56836096"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "kube-proxy",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod37e4deef-3281-4134-8ef2-f370cdb1f1aa/13d2f8ef7a757305952a597f8186725bae1b42fc613fea440d88abfa59840c2d",
+"image": "registry.k8s.io/kube-proxy:v1.27.0-rc.1",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "13d2f8ef7a757305952a597f8186725bae1b42fc613fea440d88abfa59840c2d",
+"namespace": "kube-system",
+"node": "worker-nbg1-2",
+"pod": "kube-proxy-txs8b",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"33210368"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "kube-proxy",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pode47cea88-5b6c-40e2-bf7a-120f0511ce1c/9983f5d8ce6a10bfc154d95d8ccaf23b2b5e48b5cefbe590e5db2d7a9578e037",
+"image": "registry.k8s.io/kube-proxy:v1.27.0-rc.1",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "9983f5d8ce6a10bfc154d95d8ccaf23b2b5e48b5cefbe590e5db2d7a9578e037",
+"namespace": "kube-system",
+"node": "worker-nbg1-1",
+"pod": "kube-proxy-kpbbm",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"32768000"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "kube-proxy",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pode81ab008-285e-404c-8d9a-0009d1e6e427/47b76eaf90404ffc37f2f0f0bb2dee9294e01ad9058175c9ad714e5183886503",
+"image": "registry.k8s.io/kube-proxy:v1.27.0-rc.1",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "47b76eaf90404ffc37f2f0f0bb2dee9294e01ad9058175c9ad714e5183886503",
+"namespace": "kube-system",
+"node": "controlplane-nbg1-1",
+"pod": "kube-proxy-rnrpn",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"42348544"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "kube-scheduler",
+"endpoint": "https-metrics",
+"id": "/kubepods/burstable/pod6bad1ef5ad4fc59ffb17f6a5f650680e/5345abd72d2250e4d4ec45ab941dde5c0b1636591e00ea01b8baa63dffc89070",
+"image": "registry.k8s.io/kube-scheduler:v1.27.0-rc.1",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "5345abd72d2250e4d4ec45ab941dde5c0b1636591e00ea01b8baa63dffc89070",
+"namespace": "kube-system",
+"node": "controlplane-nbg1-1",
+"pod": "kube-scheduler-controlplane-nbg1-1",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"55971840"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "kube-state-metrics",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/podea4d32bd-30ef-4ad6-8441-2b115e1e70fb/9a82d90609e5369a581508fb3bf2689dfe99d8e7823b2980dce39f45aa82c74d",
+"image": "registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.8.2",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "9a82d90609e5369a581508fb3bf2689dfe99d8e7823b2980dce39f45aa82c74d",
+"namespace": "monitoring",
+"node": "controlplane-nbg1-1",
+"pod": "kube-prometheus-stack-kube-state-metrics-7dff96c957-ddncs",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"42913792"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "liveness-probe",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod1cc50115-90d6-4d2f-aaef-9b29fb796c0e/e759bb5dfeac45db452d3f46550a648bc7a6dc40e4ea5c529119b36d0b5f1296",
+"image": "registry.k8s.io/sig-storage/livenessprobe:v2.9.0",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "e759bb5dfeac45db452d3f46550a648bc7a6dc40e4ea5c529119b36d0b5f1296",
+"namespace": "kube-system",
+"node": "worker-nbg1-2",
+"pod": "hcloud-csi-node-79k96",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"16834560"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "liveness-probe",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod6a5c1806-a3d2-4265-9044-f3380e288a68/62335ba82ad46f402760a9291ef479d78fcc1533741c494745fd16b446c31536",
+"image": "registry.k8s.io/sig-storage/livenessprobe:v2.9.0",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "62335ba82ad46f402760a9291ef479d78fcc1533741c494745fd16b446c31536",
+"namespace": "kube-system",
+"node": "controlplane-nbg1-1",
+"pod": "hcloud-csi-node-lvhlt",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"13783040"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "liveness-probe",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/poda8805515-7c88-4125-9205-095c9bba84a5/89a6b9e5a7920508020b7af832a2461e7b60e0f86b41ac740e4e6967ae19703b",
+"image": "registry.k8s.io/sig-storage/livenessprobe:v2.9.0",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "89a6b9e5a7920508020b7af832a2461e7b60e0f86b41ac740e4e6967ae19703b",
+"namespace": "kube-system",
+"node": "controlplane-nbg1-1",
+"pod": "hcloud-csi-controller-76b94f8979-mn6jt",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"9580544"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "liveness-probe",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/podf8a16034-11f7-4893-8011-44bd53f344df/725e0a4b9174c8102e14db791e23a5f6401917354d5dc5f4b230cd1457acefef",
+"image": "registry.k8s.io/sig-storage/livenessprobe:v2.9.0",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "725e0a4b9174c8102e14db791e23a5f6401917354d5dc5f4b230cd1457acefef",
+"namespace": "kube-system",
+"node": "worker-nbg1-1",
+"pod": "hcloud-csi-node-8xhhp",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"16691200"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "logging-operator",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/podd2a30460-7152-4c07-8ae9-eb86767ca39d/4c762f8faeab8cf7ee044874661abaf183560ca64ef91cb091f956529210b06b",
+"image": "ghcr.io/kube-logging/logging-operator:4.2.2",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "4c762f8faeab8cf7ee044874661abaf183560ca64ef91cb091f956529210b06b",
+"namespace": "logging",
+"node": "controlplane-nbg1-1",
+"pod": "logging-operator-6bcd5875cd-mwhbq",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"56414208"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "manager",
+"endpoint": "https-metrics",
+"id": "/kubepods/burstable/pod1717759e-0c8b-4f3d-a94a-61d1954cfe0c/bbb95bd167289f15c6760b7d517e196e4e428062dcb4cdfaf505fd871f295ec2",
+"image": "ghcr.io/fluxcd/helm-controller:v0.32.1",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "bbb95bd167289f15c6760b7d517e196e4e428062dcb4cdfaf505fd871f295ec2",
+"namespace": "flux-system",
+"node": "controlplane-nbg1-1",
+"pod": "helm-controller-7cbfc44f88-zjkzp",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"84828160"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "manager",
+"endpoint": "https-metrics",
+"id": "/kubepods/burstable/pod7d051f1a-7408-42b9-bd29-4ca91a1d1d5e/c18c8660b26b15ab45b0e435e3c450febc31229e2f98ab7ba3142c0d23988228",
+"image": "docker.elastic.co/eck/eck-operator:2.7.0",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "c18c8660b26b15ab45b0e435e3c450febc31229e2f98ab7ba3142c0d23988228",
+"namespace": "elastic",
+"node": "worker-nbg1-1",
+"pod": "elastic-operator-0",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"72658944"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "manager",
+"endpoint": "https-metrics",
+"id": "/kubepods/burstable/pod819d4f61-893d-4347-bd60-f42663433b7f/12e3e02325e413b05ccc216d1e992a3d8140dc06062bda8715e0980a720e3818",
+"image": "ghcr.io/fluxcd/source-controller:v1.0.0-rc.1",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "12e3e02325e413b05ccc216d1e992a3d8140dc06062bda8715e0980a720e3818",
+"namespace": "flux-system",
+"node": "controlplane-nbg1-1",
+"pod": "source-controller-7cfdc467d6-2vjmx",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"274079744"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "manager",
+"endpoint": "https-metrics",
+"id": "/kubepods/burstable/pod9e171e01-432a-4fc4-bb6b-1efa233c6434/f80ab193fe8cb0d905f37deee5de0da08d0afdbddbcad042dfb1113b76afad57",
+"image": "ghcr.io/fluxcd/notification-controller:v1.0.0-rc.1",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "f80ab193fe8cb0d905f37deee5de0da08d0afdbddbcad042dfb1113b76afad57",
+"namespace": "flux-system",
+"node": "controlplane-nbg1-1",
+"pod": "notification-controller-86d886486b-68zhs",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"38756352"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "manager",
+"endpoint": "https-metrics",
+"id": "/kubepods/burstable/podb988c40b-d18f-49cf-aa36-6c27f74e5caf/dc7d9e97a752a540248f024f0d3131ae873e1f57c80ac84cb10e1313b436e150",
+"image": "ghcr.io/fluxcd/image-reflector-controller:v0.27.0",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "dc7d9e97a752a540248f024f0d3131ae873e1f57c80ac84cb10e1313b436e150",
+"namespace": "flux-system",
+"node": "worker-nbg1-2",
+"pod": "image-reflector-controller-9b7d45fc5-lzzqw",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"264843264"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "manager",
+"endpoint": "https-metrics",
+"id": "/kubepods/burstable/podf02b1657-a4fe-4fe5-92d7-484fffb0cb50/7f88569edcc590b4f3520a823e532762ec8be9481f59eb11b46c0cd2ae3bfc97",
+"image": "ghcr.io/fluxcd/kustomize-controller:v1.0.0-rc.1",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "7f88569edcc590b4f3520a823e532762ec8be9481f59eb11b46c0cd2ae3bfc97",
+"namespace": "flux-system",
+"node": "controlplane-nbg1-1",
+"pod": "kustomize-controller-76dd89c9d4-slpht",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"107274240"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "manager",
+"endpoint": "https-metrics",
+"id": "/kubepods/burstable/podf2a3ee96-524a-41a0-a758-c63bff13719c/901ca1dce89fd5c225d1ae0813cebf71e7665c79e06e527c33432b83b0e70d11",
+"image": "ghcr.io/fluxcd/image-automation-controller:v0.32.0",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "901ca1dce89fd5c225d1ae0813cebf71e7665c79e06e527c33432b83b0e70d11",
+"namespace": "flux-system",
+"node": "controlplane-nbg1-1",
+"pod": "image-automation-controller-679b595d96-mrbgj",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"52125696"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "metrics",
+"endpoint": "https-metrics",
+"id": "/kubepods/burstable/podea7ebb41-eace-4961-a72d-8059ded03eb3/8a01bddd3964a158dcb3517ee65d9dc899033eba7c7534f4bf5254dd93413447",
+"image": "docker.io/bitnami/redis-exporter:1.50.0-debian-11-r1",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "8a01bddd3964a158dcb3517ee65d9dc899033eba7c7534f4bf5254dd93413447",
+"namespace": "redis",
+"node": "controlplane-nbg1-1",
+"pod": "redis-master-7847cf875-xgrdm",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"8859648"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "metrics-server",
+"endpoint": "https-metrics",
+"id": "/kubepods/burstable/pod1ea7cb6d-fb44-44e5-9743-74ea1033efc2/c7b200cbe95af649c1361ee86cc48023beb0f389f0cdc2aa04227cf33fac81ba",
+"image": "registry.k8s.io/metrics-server/metrics-server:v0.6.4",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "c7b200cbe95af649c1361ee86cc48023beb0f389f0cdc2aa04227cf33fac81ba",
+"namespace": "kube-system",
+"node": "controlplane-nbg1-1",
+"pod": "metrics-server-5d875656f5-pp4gs",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"46133248"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "netido-annotation-service",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod585fa039-efe9-4c6e-9410-1a02f724ae3b/e8368d5b4f84bfa6c41ac4ceae1c1182021087d58bf2653a9e5b08d411a18105",
+"image": "registry.vivieb.it/netido/netido-annotation-service:0.24.0-rc.73",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "e8368d5b4f84bfa6c41ac4ceae1c1182021087d58bf2653a9e5b08d411a18105",
+"namespace": "apps",
+"node": "worker-nbg1-1",
+"pod": "netido-annotation-service-app-74889bd865-4cdfm",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"149299200"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "netido-annotation-service",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/podf08a2eea-10b4-42b4-9f0b-f7b4f6ae329a/363dae50e466c722dd10c391bf48fda47646c924c88edbb158687a66313d7e00",
+"image": "registry.vivieb.it/netido/netido-annotation-service:0.24.0-rc.73",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "363dae50e466c722dd10c391bf48fda47646c924c88edbb158687a66313d7e00",
+"namespace": "apps",
+"node": "worker-nbg1-2",
+"pod": "netido-annotation-service-app-74889bd865-mwxhm",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"151949312"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "netido-audit-trails-registry-service",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pode37daa66-ce64-42db-9c5b-874af4db05c8/87f5ef6e8469f37f12024959b994f5374aece383ba9598aad6648ba5c4a9ba64",
+"image": "registry.vivieb.it/netido/netido-audit-trails-registry-service:0.34.0-rc.101",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "87f5ef6e8469f37f12024959b994f5374aece383ba9598aad6648ba5c4a9ba64",
+"namespace": "apps",
+"node": "worker-nbg1-2",
+"pod": "netido-audit-trails-registry-service-app-857cfb4c48-4p747",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"146751488"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "netido-audit-trails-registry-service",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/podef954adf-efa6-4409-bad8-49b2a1bfedd9/332d9730afb59da692a0aeb7833fbc0c34c746b284455c5a0003f2ac77b7e30b",
+"image": "registry.vivieb.it/netido/netido-audit-trails-registry-service:0.34.0-rc.101",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "332d9730afb59da692a0aeb7833fbc0c34c746b284455c5a0003f2ac77b7e30b",
+"namespace": "apps",
+"node": "worker-nbg1-1",
+"pod": "netido-audit-trails-registry-service-app-857cfb4c48-mvsl6",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"146796544"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "netido-counter-service",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod0d9463b3-8b9d-42ac-a2bb-04743d0837f3/8e54477e7b1cc11f433beeab27e6cfe23b3e53cc785e4ee4349decca354a2871",
+"image": "registry.vivieb.it/netido/netido-counter-service:0.31.0-rc.95",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "8e54477e7b1cc11f433beeab27e6cfe23b3e53cc785e4ee4349decca354a2871",
+"namespace": "apps",
+"node": "worker-nbg1-1",
+"pod": "netido-counter-service-app-6d64dc5959-dll2h",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"146071552"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "netido-counter-service",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/poddb412956-d904-45ba-ba69-bbca8fdbf52b/f3bbc03e67c8e4acbcde4ee3cd29264c7df9e99343a2ebb14a8e8d1ff77a8866",
+"image": "registry.vivieb.it/netido/netido-counter-service:0.31.0-rc.95",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "f3bbc03e67c8e4acbcde4ee3cd29264c7df9e99343a2ebb14a8e8d1ff77a8866",
+"namespace": "apps",
+"node": "worker-nbg1-2",
+"pod": "netido-counter-service-app-6d64dc5959-dnw4j",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"146558976"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "netido-dms-service",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod460e7834-9f56-4906-84e8-ba1f82048a31/13817146491a37ec563cf55bd5203ae75fcd52c0e7f97d6cd7422f073a784c16",
+"image": "registry.vivieb.it/netido/netido-dms-service:0.46.0-rc.160",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "13817146491a37ec563cf55bd5203ae75fcd52c0e7f97d6cd7422f073a784c16",
+"namespace": "apps",
+"node": "worker-nbg1-1",
+"pod": "netido-dms-service-app-5bb87bf99d-7hxqs",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"172122112"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "netido-dms-service",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/podc4bbc04f-2e87-44f9-b8e3-974ec2808a7b/b0f42dd01952ab2705c994cf7ddf934a1ddf426dbb424cf89abaf51f943589e9",
+"image": "registry.vivieb.it/netido/netido-dms-service:0.46.0-rc.160",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "b0f42dd01952ab2705c994cf7ddf934a1ddf426dbb424cf89abaf51f943589e9",
+"namespace": "apps",
+"node": "worker-nbg1-2",
+"pod": "netido-dms-service-app-5bb87bf99d-dgs8f",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"170356736"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "netido-emailing-service",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod026e1d5b-7cfd-4a3b-a363-9bbb6d5b5659/138c7fee636a3c2674fe2f09b7cb0b2963dc01861821ed0edf1b7922fdfa3418",
+"image": "registry.vivieb.it/netido/netido-emailing-service:0.24.0-rc.80",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "138c7fee636a3c2674fe2f09b7cb0b2963dc01861821ed0edf1b7922fdfa3418",
+"namespace": "apps",
+"node": "worker-nbg1-2",
+"pod": "netido-emailing-service-app-68f78d57bd-9hs2n",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"151093248"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "netido-emailing-service",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod15a71cfc-c7b0-406a-9ed3-3a230bf17460/8234b407815b6d9e8c04be6e75cabb95b12976a2c6e80a23fbad0d1e68f50d5b",
+"image": "registry.vivieb.it/netido/netido-emailing-service:0.24.0-rc.80",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "8234b407815b6d9e8c04be6e75cabb95b12976a2c6e80a23fbad0d1e68f50d5b",
+"namespace": "apps",
+"node": "worker-nbg1-1",
+"pod": "netido-emailing-service-app-68f78d57bd-zgntn",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"153182208"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "netido-gql-gateway",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod32708cc3-67a7-423a-9624-3d06fd49df9e/372b284b5f52f6ca7afb2d700353e6d52904b1798bdb385d46ad10c76ec307c5",
+"image": "registry.vivieb.it/netido/netido-gql-gateway:0.22.0-rc.66",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "372b284b5f52f6ca7afb2d700353e6d52904b1798bdb385d46ad10c76ec307c5",
+"namespace": "apps",
+"node": "worker-nbg1-1",
+"pod": "netido-gql-gateway-app-875576655-lhbx6",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"149155840"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "netido-gql-gateway",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/podb9ec7291-054f-4141-9128-ff82f818570a/de50fbe75e2b3fd0245efa4ad99f67fc6e100c4589900ad6fd1356fbdf4220d7",
+"image": "registry.vivieb.it/netido/netido-gql-gateway:0.22.0-rc.66",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "de50fbe75e2b3fd0245efa4ad99f67fc6e100c4589900ad6fd1356fbdf4220d7",
+"namespace": "apps",
+"node": "worker-nbg1-2",
+"pod": "netido-gql-gateway-app-875576655-t7nvg",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"138903552"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "netido-gql-registry",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/poda8f1a004-40a9-42f5-9206-9169f0b5a1cd/84f5124f8bfbf80e740d9ceacf8049ac4c129337eb24dc7047bfe45cd2743bb2",
+"image": "registry.vivieb.it/netido/netido-gql-registry:0.8.0-rc.26",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "84f5124f8bfbf80e740d9ceacf8049ac4c129337eb24dc7047bfe45cd2743bb2",
+"namespace": "apps",
+"node": "worker-nbg1-1",
+"pod": "netido-gql-registry-app-6c9d666cd7-bjhpb",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"133197824"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "netido-internationalization-service",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/poda7286306-6f55-4050-aa88-885e39eb028b/c53e01fe6b7797cc3df89cd0814ff48809c1ccc73fb41efc962cafc42ce9393a",
+"image": "registry.vivieb.it/netido/netido-internationalization-service:0.41.0-rc.137",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "c53e01fe6b7797cc3df89cd0814ff48809c1ccc73fb41efc962cafc42ce9393a",
+"namespace": "apps",
+"node": "worker-nbg1-2",
+"pod": "netido-internationalization-service-app-6644cc7bf7-hmggf",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"154546176"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "netido-internationalization-service",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/podfc3a1604-2c80-4823-89c1-961d7b7e3659/aab0846b15cdbdd340b012bbabbbdbdf16262aab3c9a17980d122ac83a9c324b",
+"image": "registry.vivieb.it/netido/netido-internationalization-service:0.41.0-rc.137",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "aab0846b15cdbdd340b012bbabbbdbdf16262aab3c9a17980d122ac83a9c324b",
+"namespace": "apps",
+"node": "worker-nbg1-1",
+"pod": "netido-internationalization-service-app-6644cc7bf7-qdhdk",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"155930624"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "netido-notification-service",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod237ac18a-e9fc-492e-97ea-2aef104005fe/3c011a3f8b07b4febadbc65ad86c9894cef90e3421392de7e86f7b662c4c2064",
+"image": "registry.vivieb.it/netido/netido-notification-service:0.20.0-rc.60",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "3c011a3f8b07b4febadbc65ad86c9894cef90e3421392de7e86f7b662c4c2064",
+"namespace": "apps",
+"node": "worker-nbg1-1",
+"pod": "netido-notification-service-app-57ff8f7d59-vm8n6",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"158224384"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "netido-notification-service",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod8d1c2704-0497-4dbf-ac11-1af564105c68/6043d123e078d83a7616e57e0ffe83bd31da4383842549886bc3a3503ab33d55",
+"image": "registry.vivieb.it/netido/netido-notification-service:0.20.0-rc.60",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "6043d123e078d83a7616e57e0ffe83bd31da4383842549886bc3a3503ab33d55",
+"namespace": "apps",
+"node": "worker-nbg1-2",
+"pod": "netido-notification-service-app-57ff8f7d59-8bbwt",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"157446144"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "netido-privacy-service",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod3d6b0c46-17fe-4815-a392-f3c270d465ff/dfd25bb1cef1a85579fcabf790061714e091043ecc5d9b619c45267b8e57125d",
+"image": "registry.vivieb.it/netido/netido-privacy-service:0.10.0-rc.38",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "dfd25bb1cef1a85579fcabf790061714e091043ecc5d9b619c45267b8e57125d",
+"namespace": "apps",
+"node": "worker-nbg1-2",
+"pod": "netido-privacy-service-app-849b667455-bwgns",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"164356096"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "netido-privacy-service",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/podda58ebe1-3748-4480-8d16-5e0754217aa3/fa0ad74bab195817d8405dd94d0aca6b5f85072bf29cb1aa77a1725283924786",
+"image": "registry.vivieb.it/netido/netido-privacy-service:0.10.0-rc.38",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "fa0ad74bab195817d8405dd94d0aca6b5f85072bf29cb1aa77a1725283924786",
+"namespace": "apps",
+"node": "worker-nbg1-1",
+"pod": "netido-privacy-service-app-849b667455-nzwfh",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"162803712"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "netido-saga-service",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/poda08cb29d-9f37-4457-bb11-c34258c36653/1369476784132faa4fc16e756286c0a9ad2ce6033df42b76dd979853df6bc951",
+"image": "registry.vivieb.it/netido/netido-saga-service:0.61.0-rc.194",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "1369476784132faa4fc16e756286c0a9ad2ce6033df42b76dd979853df6bc951",
+"namespace": "apps",
+"node": "worker-nbg1-2",
+"pod": "netido-saga-service-app-6b4bcc8b78-5s7xl",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"169263104"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "netido-saga-service",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/podd4514050-5e59-496c-8a8d-a67dabe647fe/cdc05d249d7052d539eb26f5ad26ed8b40db4e3e1504b873c75f4da981aecafc",
+"image": "registry.vivieb.it/netido/netido-saga-service:0.61.0-rc.194",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "cdc05d249d7052d539eb26f5ad26ed8b40db4e3e1504b873c75f4da981aecafc",
+"namespace": "apps",
+"node": "worker-nbg1-1",
+"pod": "netido-saga-service-app-6b4bcc8b78-4cprp",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"166825984"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "netido-scheduler-service",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/podd01fa78b-bacd-49fc-b7a2-1f6106e3d72f/ac806273903703f3623b4dd28cce9b62052c060fe95f586c6649c68634edf907",
+"image": "registry.vivieb.it/netido/netido-scheduler-service:0.12.0-rc.35",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "ac806273903703f3623b4dd28cce9b62052c060fe95f586c6649c68634edf907",
+"namespace": "apps",
+"node": "worker-nbg1-1",
+"pod": "netido-scheduler-service-app-dc54bdcb9-c2gm6",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"210681856"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"container": "netido-utility-service",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod3cf66a32-6dee-4052-8d0d-c997a073b8bf/88000d4f5389b7739377a2bf6f3e79e64738a362c814561da166b95906220267",
+"image": "registry.vivieb.it/netido/netido-utility-service:0.16.0-rc.46",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "88000d4f5389b7739377a2bf6f3e79e64738a362c814561da166b95906220267",
+"namespace": "apps",
+"node": "worker-nbg1-2",
+"pod": "netido-utility-service-app-54674b5c84-n45xz",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"129089536"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod28c4cdec-b506-436a-acb7-cc7b4d5e4782",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"namespace": "apps",
+"node": "worker-nbg1-1",
+"pod": "cer-plus-affiliazione-frontend-app-585cc59fd-2vhcc",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"190791680"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod28c4cdec-b506-436a-acb7-cc7b4d5e4782/6314475def453de7fb7e5ca5ce691be76a59acb1455e41ae2be8602d8535d7a2",
+"image": "registry.k8s.io/pause:3.6",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "6314475def453de7fb7e5ca5ce691be76a59acb1455e41ae2be8602d8535d7a2",
+"namespace": "apps",
+"node": "worker-nbg1-1",
+"pod": "cer-plus-affiliazione-frontend-app-585cc59fd-2vhcc",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"204800"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod2b81580c-f4d2-4c14-8ab0-01eec7395426",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"namespace": "cert-manager",
+"node": "worker-nbg1-2",
+"pod": "cert-manager-webhook-7c7d969c76-czltk",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"18190336"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod2b81580c-f4d2-4c14-8ab0-01eec7395426/e30ffba200e37394dbe5f189ac93868bd4934a53d8aca72a3d8a08e4117b1fbc",
+"image": "registry.k8s.io/pause:3.6",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "e30ffba200e37394dbe5f189ac93868bd4934a53d8aca72a3d8a08e4117b1fbc",
+"namespace": "cert-manager",
+"node": "worker-nbg1-2",
+"pod": "cert-manager-webhook-7c7d969c76-czltk",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"204800"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod2f79f718-5d6a-4e8e-bfa4-5ee7bfac25ef",
+"instance": "10.0.1.100:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"namespace": "monitoring",
+"node": "worker-nbg1-1",
+"pod": "kube-prometheus-stack-prometheus-node-exporter-ptnq5",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"20500480"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod898a32be-1ff5-42cb-a089-7902e999fe9e/a5d11dab67ea656f7497241b32d2a03192d114d8b65b83a54cb48353492ab97f",
+"image": "registry.k8s.io/pause:3.6",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "a5d11dab67ea656f7497241b32d2a03192d114d8b65b83a54cb48353492ab97f",
+"namespace": "apps",
+"node": "worker-nbg1-2",
+"pod": "cer-plus-member-frontend-app-56ddccc764-p4s8d",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"208896"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod8ae88416-2d40-4be8-89c1-66a26aca3b63",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"namespace": "apps",
+"node": "worker-nbg1-2",
+"pod": "cer-plus-service-app-fcd4465bd-ztks7",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"246521856"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod8ae88416-2d40-4be8-89c1-66a26aca3b63/233e39f4b5c6a4568ef8ab65e2b98313b491284b7ccdd9f918f6d3805df9ae64",
+"image": "registry.k8s.io/pause:3.6",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "233e39f4b5c6a4568ef8ab65e2b98313b491284b7ccdd9f918f6d3805df9ae64",
+"namespace": "apps",
+"node": "worker-nbg1-2",
+"pod": "cer-plus-service-app-fcd4465bd-ztks7",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"212992"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod8cbb9fb6-d8d9-4716-85b6-a02bb0e2b9d7",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"namespace": "sealed-secrets",
+"node": "controlplane-nbg1-1",
+"pod": "sealed-secrets-668676cb45-bvsdv",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"33869824"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod8cbb9fb6-d8d9-4716-85b6-a02bb0e2b9d7/a423bd1403d8fb7359d596c01b1091e729e03edc37d5166b86432c73eef62831",
+"image": "registry.k8s.io/pause:3.6",
+"instance": "10.0.1.50:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "a423bd1403d8fb7359d596c01b1091e729e03edc37d5166b86432c73eef62831",
+"namespace": "sealed-secrets",
+"node": "controlplane-nbg1-1",
+"pod": "sealed-secrets-668676cb45-bvsdv",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"184320"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"endpoint": "https-metrics",
+"id": "/kubepods/besteffort/pod8d1c2704-0497-4dbf-ac11-1af564105c68",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"namespace": "apps",
+"node": "worker-nbg1-2",
+"pod": "netido-notification-service-app-57ff8f7d59-8bbwt",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"157986816"
+]
+},
+{
+"metric": {
+"__name__": "container_memory_usage_bytes",
+"endpoint": "https-metrics",
+"id": "/kubepods/poddec1c9da-b661-4ced-85ca-f8582b14edd4/ed8b470b55899aa3d1e475fe22972743708248b99df489725dc51d137460cb99",
+"image": "registry.k8s.io/pause:3.6",
+"instance": "10.0.1.101:10250",
+"job": "kubelet",
+"metrics_path": "/metrics/cadvisor",
+"name": "ed8b470b55899aa3d1e475fe22972743708248b99df489725dc51d137460cb99",
+"namespace": "elastic",
+"node": "worker-nbg1-2",
+"pod": "elasticsearch-es-master-0",
+"service": "kube-prometheus-stack-kubelet"
+},
+"value": [
+1704879116.924,
+"208896"
+]
+}
+]
+}
+},
+"metadata": {
+"id": "65a2ccfddc74654018923083",
+"private": false,
+"createdAt": "2024-01-13T17:48:45.002Z",
+"collectionId": "65a2c4ba1f5677401f1cbdbd",
+"name": "container_memory_usage_bytes"
+}
+}

@@ -1,0 +1,179 @@
+{
+    "status": "success",
+    "data": {
+        "resultType": "vector",
+        "result": [
+            {
+                "metric": {
+                    "pod": "kubelet-serving-cert-approver-7ddfd4469b-9zq6m"
+                },
+                "value": [
+                    1706271758.473,
+                    "38.9892578125"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "prometheus-kube-prometheus-stack-prometheus-0"
+                },
+                "value": [
+                    1706271758.473,
+                    "12.53125"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "alertmanager-kube-prometheus-stack-alertmanager-0"
+                },
+                "value": [
+                    1706271758.473,
+                    "14.976562500000002"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "coredns-d779cc7ff-rb4kt"
+                },
+                "value": [
+                    1706271758.473,
+                    "14.910386029411764"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "coredns-d779cc7ff-spxvm"
+                },
+                "value": [
+                    1706271758.473,
+                    "14.866727941176471"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "elasticsearch-es-master-0"
+                },
+                "value": [
+                    1706271758.473,
+                    "89.68791961669922"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "apps-logging-fluentbit-vb5rx"
+                },
+                "value": [
+                    1706271758.473,
+                    "19.042303999999998"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "apps-logging-fluentbit-76kmc"
+                },
+                "value": [
+                    1706271758.473,
+                    "17.240064"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "apps-logging-fluentbit-s5xmm"
+                },
+                "value": [
+                    1706271758.473,
+                    "19.525632"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "apps-logging-fluentd-0"
+                },
+                "value": [
+                    1706271758.473,
+                    "15.228928"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "kibana-kb-6644dcd7b6-v8d4m"
+                },
+                "value": [
+                    1706271758.473,
+                    "18.11695098876953"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "helm-controller-7cbfc44f88-zjkzp"
+                },
+                "value": [
+                    1706271758.473,
+                    "4.96063232421875"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "elastic-operator-0"
+                },
+                "value": [
+                    1706271758.473,
+                    "5.771636962890625"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "source-controller-7cfdc467d6-2vjmx"
+                },
+                "value": [
+                    1706271758.473,
+                    "25.362777709960938"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "notification-controller-86d886486b-68zhs"
+                },
+                "value": [
+                    1706271758.473,
+                    "2.022552490234375"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "image-reflector-controller-9b7d45fc5-lzzqw"
+                },
+                "value": [
+                    1706271758.473,
+                    "19.22454833984375"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "kustomize-controller-76dd89c9d4-slpht"
+                },
+                "value": [
+                    1706271758.473,
+                    "8.792877197265625"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "image-automation-controller-679b595d96-mrbgj"
+                },
+                "value": [
+                    1706271758.473,
+                    "2.8133392333984375"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "rabbitmq-0"
+                },
+                "value": [
+                    1706271758.473,
+                    "8.049583435058594"
+                ]
+            }
+        ]
+    }
+}
