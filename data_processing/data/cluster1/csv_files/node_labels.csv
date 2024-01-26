@@ -1,0 +1,4 @@
+__name__,container,endpoint,instance,job,namespace,node,pod,service,value
+kube_node_labels,kube-state-metrics,http,10.244.1.67:8080,kube-state-metrics,monitoring,controlplane-nbg1-1,kube-prometheus-stack-kube-state-metrics-7dff96c957-ddncs,kube-prometheus-stack-kube-state-metrics,1
+kube_node_labels,kube-state-metrics,http,10.244.1.67:8080,kube-state-metrics,monitoring,worker-nbg1-1,kube-prometheus-stack-kube-state-metrics-7dff96c957-ddncs,kube-prometheus-stack-kube-state-metrics,1
+kube_node_labels,kube-state-metrics,http,10.244.1.67:8080,kube-state-metrics,monitoring,worker-nbg1-2,kube-prometheus-stack-kube-state-metrics-7dff96c957-ddncs,kube-prometheus-stack-kube-state-metrics,1

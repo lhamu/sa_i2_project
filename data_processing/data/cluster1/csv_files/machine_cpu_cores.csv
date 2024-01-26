@@ -1,0 +1,4 @@
+__name__,boot_id,endpoint,instance,job,machine_id,metrics_path,namespace,node,service,system_uuid,value
+machine_cpu_cores,390ee91c-5fbe-47bc-930b-72d7b620295f,https-metrics,10.0.1.100:10250,kubelet,6411893851f6a30e041709ecf4537e3a,/metrics/cadvisor,kube-system,worker-nbg1-1,kube-prometheus-stack-kubelet,cb080a81-8efa-4fc9-9113-55bcbd57dbb1,8
+machine_cpu_cores,49ee2002-ae3b-45d3-90a2-bb2ee54ef03c,https-metrics,10.0.1.50:10250,kubelet,03b36650b1cc4dc8d1e4eb5b1d105bcd,/metrics/cadvisor,kube-system,controlplane-nbg1-1,kube-prometheus-stack-kubelet,b00f9cd3-c12d-40fb-80a6-a236a8911d9a,4
+machine_cpu_cores,f9e257a0-3003-4f24-b8f6-3d22f6f0c3b7,https-metrics,10.0.1.101:10250,kubelet,f85a94d23478b7ef7bd6171fa2c692fc,/metrics/cadvisor,kube-system,worker-nbg1-2,kube-prometheus-stack-kubelet,5b95ce79-e68b-4d86-b40d-0ac8553b68c5,8

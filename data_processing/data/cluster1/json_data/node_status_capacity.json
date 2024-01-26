@@ -1,0 +1,301 @@
+{
+"record": {
+"status": "success",
+"data": {
+"resultType": "vector",
+"result": [
+{
+"metric": {
+"__name__": "kube_node_status_capacity",
+"container": "kube-state-metrics",
+"endpoint": "http",
+"instance": "10.244.1.67:8080",
+"job": "kube-state-metrics",
+"namespace": "monitoring",
+"node": "controlplane-nbg1-1",
+"pod": "kube-prometheus-stack-kube-state-metrics-7dff96c957-ddncs",
+"resource": "cpu",
+"service": "kube-prometheus-stack-kube-state-metrics",
+"unit": "core"
+},
+"value": [
+1704879145.35,
+"4"
+]
+},
+{
+"metric": {
+"__name__": "kube_node_status_capacity",
+"container": "kube-state-metrics",
+"endpoint": "http",
+"instance": "10.244.1.67:8080",
+"job": "kube-state-metrics",
+"namespace": "monitoring",
+"node": "controlplane-nbg1-1",
+"pod": "kube-prometheus-stack-kube-state-metrics-7dff96c957-ddncs",
+"resource": "ephemeral_storage",
+"service": "kube-prometheus-stack-kube-state-metrics",
+"unit": "byte"
+},
+"value": [
+1704879145.35,
+"162500227072"
+]
+},
+{
+"metric": {
+"__name__": "kube_node_status_capacity",
+"container": "kube-state-metrics",
+"endpoint": "http",
+"instance": "10.244.1.67:8080",
+"job": "kube-state-metrics",
+"namespace": "monitoring",
+"node": "controlplane-nbg1-1",
+"pod": "kube-prometheus-stack-kube-state-metrics-7dff96c957-ddncs",
+"resource": "hugepages_2Mi",
+"service": "kube-prometheus-stack-kube-state-metrics",
+"unit": "byte"
+},
+"value": [
+1704879145.35,
+"0"
+]
+},
+{
+"metric": {
+"__name__": "kube_node_status_capacity",
+"container": "kube-state-metrics",
+"endpoint": "http",
+"instance": "10.244.1.67:8080",
+"job": "kube-state-metrics",
+"namespace": "monitoring",
+"node": "controlplane-nbg1-1",
+"pod": "kube-prometheus-stack-kube-state-metrics-7dff96c957-ddncs",
+"resource": "memory",
+"service": "kube-prometheus-stack-kube-state-metrics",
+"unit": "byte"
+},
+"value": [
+1704879145.35,
+"8104771584"
+]
+},
+{
+"metric": {
+"__name__": "kube_node_status_capacity",
+"container": "kube-state-metrics",
+"endpoint": "http",
+"instance": "10.244.1.67:8080",
+"job": "kube-state-metrics",
+"namespace": "monitoring",
+"node": "controlplane-nbg1-1",
+"pod": "kube-prometheus-stack-kube-state-metrics-7dff96c957-ddncs",
+"resource": "pods",
+"service": "kube-prometheus-stack-kube-state-metrics",
+"unit": "integer"
+},
+"value": [
+1704879145.35,
+"110"
+]
+},
+{
+"metric": {
+"__name__": "kube_node_status_capacity",
+"container": "kube-state-metrics",
+"endpoint": "http",
+"instance": "10.244.1.67:8080",
+"job": "kube-state-metrics",
+"namespace": "monitoring",
+"node": "worker-nbg1-1",
+"pod": "kube-prometheus-stack-kube-state-metrics-7dff96c957-ddncs",
+"resource": "cpu",
+"service": "kube-prometheus-stack-kube-state-metrics",
+"unit": "core"
+},
+"value": [
+1704879145.35,
+"8"
+]
+},
+{
+"metric": {
+"__name__": "kube_node_status_capacity",
+"container": "kube-state-metrics",
+"endpoint": "http",
+"instance": "10.244.1.67:8080",
+"job": "kube-state-metrics",
+"namespace": "monitoring",
+"node": "worker-nbg1-1",
+"pod": "kube-prometheus-stack-kube-state-metrics-7dff96c957-ddncs",
+"resource": "ephemeral_storage",
+"service": "kube-prometheus-stack-kube-state-metrics",
+"unit": "byte"
+},
+"value": [
+1704879145.35,
+"244379181056"
+]
+},
+{
+"metric": {
+"__name__": "kube_node_status_capacity",
+"container": "kube-state-metrics",
+"endpoint": "http",
+"instance": "10.244.1.67:8080",
+"job": "kube-state-metrics",
+"namespace": "monitoring",
+"node": "worker-nbg1-1",
+"pod": "kube-prometheus-stack-kube-state-metrics-7dff96c957-ddncs",
+"resource": "hugepages_2Mi",
+"service": "kube-prometheus-stack-kube-state-metrics",
+"unit": "byte"
+},
+"value": [
+1704879145.35,
+"0"
+]
+},
+{
+"metric": {
+"__name__": "kube_node_status_capacity",
+"container": "kube-state-metrics",
+"endpoint": "http",
+"instance": "10.244.1.67:8080",
+"job": "kube-state-metrics",
+"namespace": "monitoring",
+"node": "worker-nbg1-1",
+"pod": "kube-prometheus-stack-kube-state-metrics-7dff96c957-ddncs",
+"resource": "memory",
+"service": "kube-prometheus-stack-kube-state-metrics",
+"unit": "byte"
+},
+"value": [
+1704879145.35,
+"16349855744"
+]
+},
+{
+"metric": {
+"__name__": "kube_node_status_capacity",
+"container": "kube-state-metrics",
+"endpoint": "http",
+"instance": "10.244.1.67:8080",
+"job": "kube-state-metrics",
+"namespace": "monitoring",
+"node": "worker-nbg1-1",
+"pod": "kube-prometheus-stack-kube-state-metrics-7dff96c957-ddncs",
+"resource": "pods",
+"service": "kube-prometheus-stack-kube-state-metrics",
+"unit": "integer"
+},
+"value": [
+1704879145.35,
+"110"
+]
+},
+{
+"metric": {
+"__name__": "kube_node_status_capacity",
+"container": "kube-state-metrics",
+"endpoint": "http",
+"instance": "10.244.1.67:8080",
+"job": "kube-state-metrics",
+"namespace": "monitoring",
+"node": "worker-nbg1-2",
+"pod": "kube-prometheus-stack-kube-state-metrics-7dff96c957-ddncs",
+"resource": "cpu",
+"service": "kube-prometheus-stack-kube-state-metrics",
+"unit": "core"
+},
+"value": [
+1704879145.35,
+"8"
+]
+},
+{
+"metric": {
+"__name__": "kube_node_status_capacity",
+"container": "kube-state-metrics",
+"endpoint": "http",
+"instance": "10.244.1.67:8080",
+"job": "kube-state-metrics",
+"namespace": "monitoring",
+"node": "worker-nbg1-2",
+"pod": "kube-prometheus-stack-kube-state-metrics-7dff96c957-ddncs",
+"resource": "ephemeral_storage",
+"service": "kube-prometheus-stack-kube-state-metrics",
+"unit": "byte"
+},
+"value": [
+1704879145.35,
+"244379181056"
+]
+},
+{
+"metric": {
+"__name__": "kube_node_status_capacity",
+"container": "kube-state-metrics",
+"endpoint": "http",
+"instance": "10.244.1.67:8080",
+"job": "kube-state-metrics",
+"namespace": "monitoring",
+"node": "worker-nbg1-2",
+"pod": "kube-prometheus-stack-kube-state-metrics-7dff96c957-ddncs",
+"resource": "hugepages_2Mi",
+"service": "kube-prometheus-stack-kube-state-metrics",
+"unit": "byte"
+},
+"value": [
+1704879145.35,
+"0"
+]
+},
+{
+"metric": {
+"__name__": "kube_node_status_capacity",
+"container": "kube-state-metrics",
+"endpoint": "http",
+"instance": "10.244.1.67:8080",
+"job": "kube-state-metrics",
+"namespace": "monitoring",
+"node": "worker-nbg1-2",
+"pod": "kube-prometheus-stack-kube-state-metrics-7dff96c957-ddncs",
+"resource": "memory",
+"service": "kube-prometheus-stack-kube-state-metrics",
+"unit": "byte"
+},
+"value": [
+1704879145.35,
+"16349863936"
+]
+},
+{
+"metric": {
+"__name__": "kube_node_status_capacity",
+"container": "kube-state-metrics",
+"endpoint": "http",
+"instance": "10.244.1.67:8080",
+"job": "kube-state-metrics",
+"namespace": "monitoring",
+"node": "worker-nbg1-2",
+"pod": "kube-prometheus-stack-kube-state-metrics-7dff96c957-ddncs",
+"resource": "pods",
+"service": "kube-prometheus-stack-kube-state-metrics",
+"unit": "integer"
+},
+"value": [
+1704879145.35,
+"110"
+]
+}
+]
+}
+},
+"metadata": {
+"id": "65a2c8c0266cfc3fde77ae37",
+"private": false,
+"createdAt": "2024-01-13T17:30:40.416Z",
+"name": "kube_node_status_capacity"
+}
+}
