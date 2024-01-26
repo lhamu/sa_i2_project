@@ -1,0 +1,1931 @@
+{
+  "status": "success",
+  "data": {
+    "resultType": "vector",
+    "result": [
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "DaemonSet",
+          "created_by_name": "apps-logging-fluentbit",
+          "endpoint": "http",
+          "host_ip": "10.0.1.100",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "logging",
+          "node": "worker-nbg1-1",
+          "pod": "apps-logging-fluentbit-s5xmm",
+          "pod_ip": "10.244.2.46",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "9421b13d-0f2c-44cc-a0a4-9f6fcb55b3a8"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "DaemonSet",
+          "created_by_name": "apps-logging-fluentbit",
+          "endpoint": "http",
+          "host_ip": "10.0.1.101",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "logging",
+          "node": "worker-nbg1-2",
+          "pod": "apps-logging-fluentbit-vb5rx",
+          "pod_ip": "10.244.0.91",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "07513eda-a4ce-4ce2-9d7f-02173e7d75cc"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "DaemonSet",
+          "created_by_name": "apps-logging-fluentbit",
+          "endpoint": "http",
+          "host_ip": "10.0.1.50",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "logging",
+          "node": "controlplane-nbg1-1",
+          "pod": "apps-logging-fluentbit-76kmc",
+          "pod_ip": "10.244.1.103",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "29421749-6678-4d24-9899-db3236b7ef87"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "DaemonSet",
+          "created_by_name": "hcloud-csi-node",
+          "endpoint": "http",
+          "host_ip": "10.0.1.100",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "kube-system",
+          "node": "worker-nbg1-1",
+          "pod": "hcloud-csi-node-8xhhp",
+          "pod_ip": "10.244.2.47",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "f8a16034-11f7-4893-8011-44bd53f344df"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "DaemonSet",
+          "created_by_name": "hcloud-csi-node",
+          "endpoint": "http",
+          "host_ip": "10.0.1.101",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "kube-system",
+          "node": "worker-nbg1-2",
+          "pod": "hcloud-csi-node-79k96",
+          "pod_ip": "10.244.0.85",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "1cc50115-90d6-4d2f-aaef-9b29fb796c0e"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "DaemonSet",
+          "created_by_name": "hcloud-csi-node",
+          "endpoint": "http",
+          "host_ip": "10.0.1.50",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "kube-system",
+          "node": "controlplane-nbg1-1",
+          "pod": "hcloud-csi-node-lvhlt",
+          "pod_ip": "10.244.1.62",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "6a5c1806-a3d2-4265-9044-f3380e288a68"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "DaemonSet",
+          "created_by_name": "kube-flannel",
+          "endpoint": "http",
+          "host_ip": "10.0.1.100",
+          "host_network": "true",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "kube-system",
+          "node": "worker-nbg1-1",
+          "pod": "kube-flannel-lgxb6",
+          "pod_ip": "10.0.1.100",
+          "priority_class": "system-node-critical",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "ea0de412-1a10-4ed2-a970-95703f4eb77a"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "DaemonSet",
+          "created_by_name": "kube-flannel",
+          "endpoint": "http",
+          "host_ip": "10.0.1.101",
+          "host_network": "true",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "kube-system",
+          "node": "worker-nbg1-2",
+          "pod": "kube-flannel-gpvbr",
+          "pod_ip": "10.0.1.101",
+          "priority_class": "system-node-critical",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "5f39c2c6-f9df-4d9a-8b78-327f558d31df"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "DaemonSet",
+          "created_by_name": "kube-flannel",
+          "endpoint": "http",
+          "host_ip": "10.0.1.50",
+          "host_network": "true",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "kube-system",
+          "node": "controlplane-nbg1-1",
+          "pod": "kube-flannel-qs259",
+          "pod_ip": "10.0.1.50",
+          "priority_class": "system-node-critical",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "a7539910-7e52-4d26-a9b5-178436a8aeb3"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "DaemonSet",
+          "created_by_name": "kube-prometheus-stack-prometheus-node-exporter",
+          "endpoint": "http",
+          "host_ip": "10.0.1.100",
+          "host_network": "true",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "monitoring",
+          "node": "worker-nbg1-1",
+          "pod": "kube-prometheus-stack-prometheus-node-exporter-ptnq5",
+          "pod_ip": "10.0.1.100",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "2f79f718-5d6a-4e8e-bfa4-5ee7bfac25ef"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "DaemonSet",
+          "created_by_name": "kube-prometheus-stack-prometheus-node-exporter",
+          "endpoint": "http",
+          "host_ip": "10.0.1.101",
+          "host_network": "true",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "monitoring",
+          "node": "worker-nbg1-2",
+          "pod": "kube-prometheus-stack-prometheus-node-exporter-5xnll",
+          "pod_ip": "10.0.1.101",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "a781cec7-8233-4632-94c3-f7eaf3b6e5b6"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "DaemonSet",
+          "created_by_name": "kube-prometheus-stack-prometheus-node-exporter",
+          "endpoint": "http",
+          "host_ip": "10.0.1.50",
+          "host_network": "true",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "monitoring",
+          "node": "controlplane-nbg1-1",
+          "pod": "kube-prometheus-stack-prometheus-node-exporter-mq5n9",
+          "pod_ip": "10.0.1.50",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "8e5fdb90-c78d-4eab-bd7a-c1dc6466525f"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "DaemonSet",
+          "created_by_name": "kube-proxy",
+          "endpoint": "http",
+          "host_ip": "10.0.1.100",
+          "host_network": "true",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "kube-system",
+          "node": "worker-nbg1-1",
+          "pod": "kube-proxy-kpbbm",
+          "pod_ip": "10.0.1.100",
+          "priority_class": "system-cluster-critical",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "e47cea88-5b6c-40e2-bf7a-120f0511ce1c"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "DaemonSet",
+          "created_by_name": "kube-proxy",
+          "endpoint": "http",
+          "host_ip": "10.0.1.101",
+          "host_network": "true",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "kube-system",
+          "node": "worker-nbg1-2",
+          "pod": "kube-proxy-txs8b",
+          "pod_ip": "10.0.1.101",
+          "priority_class": "system-cluster-critical",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "37e4deef-3281-4134-8ef2-f370cdb1f1aa"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "DaemonSet",
+          "created_by_name": "kube-proxy",
+          "endpoint": "http",
+          "host_ip": "10.0.1.50",
+          "host_network": "true",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "kube-system",
+          "node": "controlplane-nbg1-1",
+          "pod": "kube-proxy-rnrpn",
+          "pod_ip": "10.0.1.50",
+          "priority_class": "system-cluster-critical",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "e81ab008-285e-404c-8d9a-0009d1e6e427"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "Node",
+          "created_by_name": "controlplane-nbg1-1",
+          "endpoint": "http",
+          "host_ip": "10.0.1.50",
+          "host_network": "true",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "kube-system",
+          "node": "controlplane-nbg1-1",
+          "pod": "kube-apiserver-controlplane-nbg1-1",
+          "pod_ip": "10.0.1.50",
+          "priority_class": "system-cluster-critical",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "c4245c78-8a09-4382-b4fb-60ba6dce2430"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "Node",
+          "created_by_name": "controlplane-nbg1-1",
+          "endpoint": "http",
+          "host_ip": "10.0.1.50",
+          "host_network": "true",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "kube-system",
+          "node": "controlplane-nbg1-1",
+          "pod": "kube-controller-manager-controlplane-nbg1-1",
+          "pod_ip": "10.0.1.50",
+          "priority_class": "system-cluster-critical",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "46a0ec72-229a-41d5-ac69-3862af80a277"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "Node",
+          "created_by_name": "controlplane-nbg1-1",
+          "endpoint": "http",
+          "host_ip": "10.0.1.50",
+          "host_network": "true",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "kube-system",
+          "node": "controlplane-nbg1-1",
+          "pod": "kube-scheduler-controlplane-nbg1-1",
+          "pod_ip": "10.0.1.50",
+          "priority_class": "system-cluster-critical",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "86aed4b0-d9d3-4ce2-a71c-27e1e1383035"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "cer-plus-affiliazione-frontend-app-585cc59fd",
+          "endpoint": "http",
+          "host_ip": "10.0.1.100",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-1",
+          "pod": "cer-plus-affiliazione-frontend-app-585cc59fd-2vhcc",
+          "pod_ip": "10.244.2.89",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "28c4cdec-b506-436a-acb7-cc7b4d5e4782"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "cer-plus-affiliazione-frontend-app-585cc59fd",
+          "endpoint": "http",
+          "host_ip": "10.0.1.101",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-2",
+          "pod": "cer-plus-affiliazione-frontend-app-585cc59fd-jtw98",
+          "pod_ip": "10.244.0.129",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "5f564b96-dbf5-4f43-b588-a647b47d1c52"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "cer-plus-member-frontend-app-56ddccc764",
+          "endpoint": "http",
+          "host_ip": "10.0.1.100",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-1",
+          "pod": "cer-plus-member-frontend-app-56ddccc764-bvkns",
+          "pod_ip": "10.244.2.150",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "a4cae5f5-645e-41e5-bbaf-94906e4be116"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "cer-plus-member-frontend-app-56ddccc764",
+          "endpoint": "http",
+          "host_ip": "10.0.1.101",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-2",
+          "pod": "cer-plus-member-frontend-app-56ddccc764-p4s8d",
+          "pod_ip": "10.244.0.172",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "898a32be-1ff5-42cb-a089-7902e999fe9e"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "cer-plus-operator-frontend-app-74c48587bb",
+          "endpoint": "http",
+          "host_ip": "10.0.1.100",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-1",
+          "pod": "cer-plus-operator-frontend-app-74c48587bb-tpn7x",
+          "pod_ip": "10.244.2.151",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "00e68ea7-9e98-4a23-83e7-097403a96d2b"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "cer-plus-operator-frontend-app-74c48587bb",
+          "endpoint": "http",
+          "host_ip": "10.0.1.101",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-2",
+          "pod": "cer-plus-operator-frontend-app-74c48587bb-5lldp",
+          "pod_ip": "10.244.0.173",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "f427b53b-723e-4180-91fb-21624d7acd1e"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "cer-plus-schedulers-app-786984d5db",
+          "endpoint": "http",
+          "host_ip": "10.0.1.100",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-1",
+          "pod": "cer-plus-schedulers-app-786984d5db-fk8dz",
+          "pod_ip": "10.244.2.160",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "253e7f96-e258-4d2c-bd33-a0a66743a0ea"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "cer-plus-schedulers-app-786984d5db",
+          "endpoint": "http",
+          "host_ip": "10.0.1.101",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-2",
+          "pod": "cer-plus-schedulers-app-786984d5db-hqmz4",
+          "pod_ip": "10.244.0.178",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "35a1eff0-e088-493c-b009-200816a452c2"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "cer-plus-service-app-fcd4465bd",
+          "endpoint": "http",
+          "host_ip": "10.0.1.100",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-1",
+          "pod": "cer-plus-service-app-fcd4465bd-nfkkh",
+          "pod_ip": "10.244.2.161",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "5f7bc06e-4edf-4972-9020-d0470ca18488"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "cer-plus-service-app-fcd4465bd",
+          "endpoint": "http",
+          "host_ip": "10.0.1.101",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-2",
+          "pod": "cer-plus-service-app-fcd4465bd-ztks7",
+          "pod_ip": "10.244.0.179",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "8ae88416-2d40-4be8-89c1-66a26aca3b63"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "cert-manager-8db45d64b",
+          "endpoint": "http",
+          "host_ip": "10.0.1.100",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "cert-manager",
+          "node": "worker-nbg1-1",
+          "pod": "cert-manager-8db45d64b-jxlrs",
+          "pod_ip": "10.244.2.96",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "ee06d271-f11c-453f-9f68-99007c57a7c2"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "cert-manager-cainjector-5c8d6f6646",
+          "endpoint": "http",
+          "host_ip": "10.0.1.101",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "cert-manager",
+          "node": "worker-nbg1-2",
+          "pod": "cert-manager-cainjector-5c8d6f6646-92txb",
+          "pod_ip": "10.244.0.133",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "e8d73c2b-3bbc-4ba8-87ba-86a88dde19f0"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "cert-manager-webhook-7c7d969c76",
+          "endpoint": "http",
+          "host_ip": "10.0.1.101",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "cert-manager",
+          "node": "worker-nbg1-2",
+          "pod": "cert-manager-webhook-7c7d969c76-czltk",
+          "pod_ip": "10.244.0.134",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "2b81580c-f4d2-4c14-8ab0-01eec7395426"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "coredns-d779cc7ff",
+          "endpoint": "http",
+          "host_ip": "10.0.1.50",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "kube-system",
+          "node": "controlplane-nbg1-1",
+          "pod": "coredns-d779cc7ff-rb4kt",
+          "pod_ip": "10.244.1.71",
+          "priority_class": "system-cluster-critical",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "1e6e2c59-172e-4b2f-9211-de5bb60eccdf"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "coredns-d779cc7ff",
+          "endpoint": "http",
+          "host_ip": "10.0.1.50",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "kube-system",
+          "node": "controlplane-nbg1-1",
+          "pod": "coredns-d779cc7ff-spxvm",
+          "pod_ip": "10.244.1.98",
+          "priority_class": "system-cluster-critical",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "83c4c2b1-4c90-4c02-a7fa-6a223c9f097c"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "hcloud-cloud-controller-manager-69c646bcb4",
+          "endpoint": "http",
+          "host_ip": "10.0.1.50",
+          "host_network": "true",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "kube-system",
+          "node": "controlplane-nbg1-1",
+          "pod": "hcloud-cloud-controller-manager-69c646bcb4-f42gx",
+          "pod_ip": "10.0.1.50",
+          "priority_class": "system-cluster-critical",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "4ec1d904-a9ef-462f-910c-9108e62a4deb"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "hcloud-csi-controller-76b94f8979",
+          "endpoint": "http",
+          "host_ip": "10.0.1.50",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "kube-system",
+          "node": "controlplane-nbg1-1",
+          "pod": "hcloud-csi-controller-76b94f8979-mn6jt",
+          "pod_ip": "10.244.1.110",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "a8805515-7c88-4125-9205-095c9bba84a5"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "helm-controller-7cbfc44f88",
+          "endpoint": "http",
+          "host_ip": "10.0.1.50",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "flux-system",
+          "node": "controlplane-nbg1-1",
+          "pod": "helm-controller-7cbfc44f88-zjkzp",
+          "pod_ip": "10.244.1.92",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "1717759e-0c8b-4f3d-a94a-61d1954cfe0c"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "image-automation-controller-679b595d96",
+          "endpoint": "http",
+          "host_ip": "10.0.1.50",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "flux-system",
+          "node": "controlplane-nbg1-1",
+          "pod": "image-automation-controller-679b595d96-mrbgj",
+          "pod_ip": "10.244.1.65",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "f2a3ee96-524a-41a0-a758-c63bff13719c"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "image-reflector-controller-9b7d45fc5",
+          "endpoint": "http",
+          "host_ip": "10.0.1.101",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "flux-system",
+          "node": "worker-nbg1-2",
+          "pod": "image-reflector-controller-9b7d45fc5-lzzqw",
+          "pod_ip": "10.244.0.108",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "b988c40b-d18f-49cf-aa36-6c27f74e5caf"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "image-reflector-controller-9b7d45fc5",
+          "endpoint": "http",
+          "host_ip": "10.0.1.50",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "flux-system",
+          "node": "controlplane-nbg1-1",
+          "pod": "image-reflector-controller-9b7d45fc5-rhpsj",
+          "pod_ip": "10.244.1.42",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "cc0431ab-213d-4801-acc2-6e737a9ae67f"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "ingress-nginx-controller-748b9689bf",
+          "endpoint": "http",
+          "host_ip": "10.0.1.100",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "ingress-nginx",
+          "node": "worker-nbg1-1",
+          "pod": "ingress-nginx-controller-748b9689bf-2kkt2",
+          "pod_ip": "10.244.2.158",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "2ab3c8a8-f548-4d20-9ec8-9da7f7b12f3f"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "ingress-nginx-controller-748b9689bf",
+          "endpoint": "http",
+          "host_ip": "10.0.1.101",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "ingress-nginx",
+          "node": "worker-nbg1-2",
+          "pod": "ingress-nginx-controller-748b9689bf-2hbpr",
+          "pod_ip": "10.244.0.177",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "655907a0-2927-4080-a885-a009c8beede8"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "kibana-kb-6644dcd7b6",
+          "endpoint": "http",
+          "host_ip": "10.0.1.50",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "elastic",
+          "node": "controlplane-nbg1-1",
+          "pod": "kibana-kb-6644dcd7b6-v8d4m",
+          "pod_ip": "10.244.1.113",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "c15452d8-7c1d-46cd-b076-ab2ec9a18d23"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "kube-prometheus-stack-grafana-6b47849ddb",
+          "endpoint": "http",
+          "host_ip": "10.0.1.50",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "monitoring",
+          "node": "controlplane-nbg1-1",
+          "pod": "kube-prometheus-stack-grafana-6b47849ddb-d5r4r",
+          "pod_ip": "10.244.1.104",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "d9e0431f-259e-475d-ac33-d76663d307a1"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "kube-prometheus-stack-kube-state-metrics-7dff96c957",
+          "endpoint": "http",
+          "host_ip": "10.0.1.50",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "monitoring",
+          "node": "controlplane-nbg1-1",
+          "pod": "kube-prometheus-stack-kube-state-metrics-7dff96c957-ddncs",
+          "pod_ip": "10.244.1.67",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "ea4d32bd-30ef-4ad6-8441-2b115e1e70fb"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "kube-prometheus-stack-operator-6cbc867d96",
+          "endpoint": "http",
+          "host_ip": "10.0.1.50",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "monitoring",
+          "node": "controlplane-nbg1-1",
+          "pod": "kube-prometheus-stack-operator-6cbc867d96-pzhff",
+          "pod_ip": "10.244.1.109",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "a5dc1882-771f-4696-9f70-9cef7472eef4"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "kubelet-serving-cert-approver-7ddfd4469b",
+          "endpoint": "http",
+          "host_ip": "10.0.1.50",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "kubelet-serving-cert-approver",
+          "node": "controlplane-nbg1-1",
+          "pod": "kubelet-serving-cert-approver-7ddfd4469b-9zq6m",
+          "pod_ip": "10.244.1.82",
+          "priority_class": "system-cluster-critical",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "57c42790-9587-4e25-b37d-73aa5d71ea51"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "kustomize-controller-76dd89c9d4",
+          "endpoint": "http",
+          "host_ip": "10.0.1.50",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "flux-system",
+          "node": "controlplane-nbg1-1",
+          "pod": "kustomize-controller-76dd89c9d4-slpht",
+          "pod_ip": "10.244.1.80",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "f02b1657-a4fe-4fe5-92d7-484fffb0cb50"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "logging-operator-6bcd5875cd",
+          "endpoint": "http",
+          "host_ip": "10.0.1.50",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "logging",
+          "node": "controlplane-nbg1-1",
+          "pod": "logging-operator-6bcd5875cd-mwhbq",
+          "pod_ip": "10.244.1.66",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "d2a30460-7152-4c07-8ae9-eb86767ca39d"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "metrics-server-5d875656f5",
+          "endpoint": "http",
+          "host_ip": "10.0.1.50",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "kube-system",
+          "node": "controlplane-nbg1-1",
+          "pod": "metrics-server-5d875656f5-pp4gs",
+          "pod_ip": "10.244.1.112",
+          "priority_class": "system-cluster-critical",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "1ea7cb6d-fb44-44e5-9743-74ea1033efc2"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "netido-annotation-service-app-74889bd865",
+          "endpoint": "http",
+          "host_ip": "10.0.1.100",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-1",
+          "pod": "netido-annotation-service-app-74889bd865-4cdfm",
+          "pod_ip": "10.244.2.86",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "585fa039-efe9-4c6e-9410-1a02f724ae3b"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "netido-annotation-service-app-74889bd865",
+          "endpoint": "http",
+          "host_ip": "10.0.1.101",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-2",
+          "pod": "netido-annotation-service-app-74889bd865-mwxhm",
+          "pod_ip": "10.244.0.125",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "f08a2eea-10b4-42b4-9f0b-f7b4f6ae329a"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "netido-audit-trails-registry-service-app-857cfb4c48",
+          "endpoint": "http",
+          "host_ip": "10.0.1.100",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-1",
+          "pod": "netido-audit-trails-registry-service-app-857cfb4c48-mvsl6",
+          "pod_ip": "10.244.2.88",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "ef954adf-efa6-4409-bad8-49b2a1bfedd9"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "netido-audit-trails-registry-service-app-857cfb4c48",
+          "endpoint": "http",
+          "host_ip": "10.0.1.101",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-2",
+          "pod": "netido-audit-trails-registry-service-app-857cfb4c48-4p747",
+          "pod_ip": "10.244.0.124",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "e37daa66-ce64-42db-9c5b-874af4db05c8"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "netido-counter-service-app-6d64dc5959",
+          "endpoint": "http",
+          "host_ip": "10.0.1.100",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-1",
+          "pod": "netido-counter-service-app-6d64dc5959-dll2h",
+          "pod_ip": "10.244.2.85",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "0d9463b3-8b9d-42ac-a2bb-04743d0837f3"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "netido-counter-service-app-6d64dc5959",
+          "endpoint": "http",
+          "host_ip": "10.0.1.101",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-2",
+          "pod": "netido-counter-service-app-6d64dc5959-dnw4j",
+          "pod_ip": "10.244.0.122",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "db412956-d904-45ba-ba69-bbca8fdbf52b"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "netido-dms-service-app-5bb87bf99d",
+          "endpoint": "http",
+          "host_ip": "10.0.1.100",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-1",
+          "pod": "netido-dms-service-app-5bb87bf99d-7hxqs",
+          "pod_ip": "10.244.2.84",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "460e7834-9f56-4906-84e8-ba1f82048a31"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "netido-dms-service-app-5bb87bf99d",
+          "endpoint": "http",
+          "host_ip": "10.0.1.101",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-2",
+          "pod": "netido-dms-service-app-5bb87bf99d-dgs8f",
+          "pod_ip": "10.244.0.120",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "c4bbc04f-2e87-44f9-b8e3-974ec2808a7b"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "netido-emailing-service-app-68f78d57bd",
+          "endpoint": "http",
+          "host_ip": "10.0.1.100",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-1",
+          "pod": "netido-emailing-service-app-68f78d57bd-zgntn",
+          "pod_ip": "10.244.2.83",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "15a71cfc-c7b0-406a-9ed3-3a230bf17460"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "netido-emailing-service-app-68f78d57bd",
+          "endpoint": "http",
+          "host_ip": "10.0.1.101",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-2",
+          "pod": "netido-emailing-service-app-68f78d57bd-9hs2n",
+          "pod_ip": "10.244.0.121",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "026e1d5b-7cfd-4a3b-a363-9bbb6d5b5659"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "netido-gql-gateway-app-875576655",
+          "endpoint": "http",
+          "host_ip": "10.0.1.100",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-1",
+          "pod": "netido-gql-gateway-app-875576655-lhbx6",
+          "pod_ip": "10.244.2.93",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "32708cc3-67a7-423a-9624-3d06fd49df9e"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "netido-gql-gateway-app-875576655",
+          "endpoint": "http",
+          "host_ip": "10.0.1.101",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-2",
+          "pod": "netido-gql-gateway-app-875576655-t7nvg",
+          "pod_ip": "10.244.0.130",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "b9ec7291-054f-4141-9128-ff82f818570a"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "netido-gql-registry-app-6c9d666cd7",
+          "endpoint": "http",
+          "host_ip": "10.0.1.100",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-1",
+          "pod": "netido-gql-registry-app-6c9d666cd7-bjhpb",
+          "pod_ip": "10.244.2.77",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "a8f1a004-40a9-42f5-9206-9169f0b5a1cd"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "netido-internationalization-service-app-6644cc7bf7",
+          "endpoint": "http",
+          "host_ip": "10.0.1.100",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-1",
+          "pod": "netido-internationalization-service-app-6644cc7bf7-qdhdk",
+          "pod_ip": "10.244.2.81",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "fc3a1604-2c80-4823-89c1-961d7b7e3659"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "netido-internationalization-service-app-6644cc7bf7",
+          "endpoint": "http",
+          "host_ip": "10.0.1.101",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-2",
+          "pod": "netido-internationalization-service-app-6644cc7bf7-hmggf",
+          "pod_ip": "10.244.0.115",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "a7286306-6f55-4050-aa88-885e39eb028b"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "netido-notification-service-app-57ff8f7d59",
+          "endpoint": "http",
+          "host_ip": "10.0.1.100",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-1",
+          "pod": "netido-notification-service-app-57ff8f7d59-vm8n6",
+          "pod_ip": "10.244.2.82",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "237ac18a-e9fc-492e-97ea-2aef104005fe"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "netido-notification-service-app-57ff8f7d59",
+          "endpoint": "http",
+          "host_ip": "10.0.1.101",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-2",
+          "pod": "netido-notification-service-app-57ff8f7d59-8bbwt",
+          "pod_ip": "10.244.0.116",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "8d1c2704-0497-4dbf-ac11-1af564105c68"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "netido-privacy-service-app-849b667455",
+          "endpoint": "http",
+          "host_ip": "10.0.1.100",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-1",
+          "pod": "netido-privacy-service-app-849b667455-nzwfh",
+          "pod_ip": "10.244.2.79",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "da58ebe1-3748-4480-8d16-5e0754217aa3"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "netido-privacy-service-app-849b667455",
+          "endpoint": "http",
+          "host_ip": "10.0.1.101",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-2",
+          "pod": "netido-privacy-service-app-849b667455-bwgns",
+          "pod_ip": "10.244.0.118",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "3d6b0c46-17fe-4815-a392-f3c270d465ff"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "netido-saga-service-app-6b4bcc8b78",
+          "endpoint": "http",
+          "host_ip": "10.0.1.100",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-1",
+          "pod": "netido-saga-service-app-6b4bcc8b78-4cprp",
+          "pod_ip": "10.244.2.80",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "d4514050-5e59-496c-8a8d-a67dabe647fe"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "netido-saga-service-app-6b4bcc8b78",
+          "endpoint": "http",
+          "host_ip": "10.0.1.101",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-2",
+          "pod": "netido-saga-service-app-6b4bcc8b78-5s7xl",
+          "pod_ip": "10.244.0.119",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "a08cb29d-9f37-4457-bb11-c34258c36653"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "netido-scheduler-service-app-dc54bdcb9",
+          "endpoint": "http",
+          "host_ip": "10.0.1.100",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-1",
+          "pod": "netido-scheduler-service-app-dc54bdcb9-c2gm6",
+          "pod_ip": "10.244.2.149",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "d01fa78b-bacd-49fc-b7a2-1f6106e3d72f"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "netido-utility-service-app-54674b5c84",
+          "endpoint": "http",
+          "host_ip": "10.0.1.101",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "apps",
+          "node": "worker-nbg1-2",
+          "pod": "netido-utility-service-app-54674b5c84-n45xz",
+          "pod_ip": "10.244.0.117",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "3cf66a32-6dee-4052-8d0d-c997a073b8bf"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "notification-controller-86d886486b",
+          "endpoint": "http",
+          "host_ip": "10.0.1.50",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "flux-system",
+          "node": "controlplane-nbg1-1",
+          "pod": "notification-controller-86d886486b-68zhs",
+          "pod_ip": "10.244.1.61",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "9e171e01-432a-4fc4-bb6b-1efa233c6434"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "redis-master-7847cf875",
+          "endpoint": "http",
+          "host_ip": "10.0.1.50",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "redis",
+          "node": "controlplane-nbg1-1",
+          "pod": "redis-master-7847cf875-xgrdm",
+          "pod_ip": "10.244.1.79",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "ea7ebb41-eace-4961-a72d-8059ded03eb3"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "sealed-secrets-668676cb45",
+          "endpoint": "http",
+          "host_ip": "10.0.1.50",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "sealed-secrets",
+          "node": "controlplane-nbg1-1",
+          "pod": "sealed-secrets-668676cb45-bvsdv",
+          "pod_ip": "10.244.1.102",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "8cbb9fb6-d8d9-4716-85b6-a02bb0e2b9d7"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "source-controller-7cfdc467d6",
+          "endpoint": "http",
+          "host_ip": "10.0.1.50",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "flux-system",
+          "node": "controlplane-nbg1-1",
+          "pod": "source-controller-7cfdc467d6-2vjmx",
+          "pod_ip": "10.244.1.84",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "819d4f61-893d-4347-bd60-f42663433b7f"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "ReplicaSet",
+          "created_by_name": "talos-cloud-controller-manager-848cf74f9b",
+          "endpoint": "http",
+          "host_ip": "10.0.1.50",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "kube-system",
+          "node": "controlplane-nbg1-1",
+          "pod": "talos-cloud-controller-manager-848cf74f9b-r7n9f",
+          "pod_ip": "10.244.1.83",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "a99d290a-73b7-4a19-9707-46ea5822f01a"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "StatefulSet",
+          "created_by_name": "alertmanager-kube-prometheus-stack-alertmanager",
+          "endpoint": "http",
+          "host_ip": "10.0.1.100",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "monitoring",
+          "node": "worker-nbg1-1",
+          "pod": "alertmanager-kube-prometheus-stack-alertmanager-0",
+          "pod_ip": "10.244.2.69",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "a6a84786-e6c1-4664-bc88-d47352abaf94"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "StatefulSet",
+          "created_by_name": "apps-logging-fluentd",
+          "endpoint": "http",
+          "host_ip": "10.0.1.101",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "logging",
+          "node": "worker-nbg1-2",
+          "pod": "apps-logging-fluentd-0",
+          "pod_ip": "10.244.0.106",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "9dd17ead-ce23-4b4f-9cd9-98f77a88a26a"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "StatefulSet",
+          "created_by_name": "elastic-operator",
+          "endpoint": "http",
+          "host_ip": "10.0.1.100",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "elastic",
+          "node": "worker-nbg1-1",
+          "pod": "elastic-operator-0",
+          "pod_ip": "10.244.2.70",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "7d051f1a-7408-42b9-bd29-4ca91a1d1d5e"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "StatefulSet",
+          "created_by_name": "elasticsearch-es-master",
+          "endpoint": "http",
+          "host_ip": "10.0.1.101",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "elastic",
+          "node": "worker-nbg1-2",
+          "pod": "elasticsearch-es-master-0",
+          "pod_ip": "10.244.0.107",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "dec1c9da-b661-4ced-85ca-f8582b14edd4"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "StatefulSet",
+          "created_by_name": "prometheus-kube-prometheus-stack-prometheus",
+          "endpoint": "http",
+          "host_ip": "10.0.1.100",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "monitoring",
+          "node": "worker-nbg1-1",
+          "pod": "prometheus-kube-prometheus-stack-prometheus-0",
+          "pod_ip": "10.244.2.68",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "4ecea42c-e6fc-4196-9f5e-08c3998678fc"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "kube_pod_info",
+          "container": "kube-state-metrics",
+          "created_by_kind": "StatefulSet",
+          "created_by_name": "rabbitmq",
+          "endpoint": "http",
+          "host_ip": "10.0.1.100",
+          "host_network": "false",
+          "instance": "10.244.1.67:8080",
+          "job": "kube-state-metrics",
+          "namespace": "rabbitmq",
+          "node": "worker-nbg1-1",
+          "pod": "rabbitmq-0",
+          "pod_ip": "10.244.2.71",
+          "service": "kube-prometheus-stack-kube-state-metrics",
+          "uid": "52c9960e-427d-4e5b-9a95-cb6918e3fe11"
+        },
+        "value": [
+          1704879086.221,
+          "1"
+        ]
+      }
+    ]
+  }
+}

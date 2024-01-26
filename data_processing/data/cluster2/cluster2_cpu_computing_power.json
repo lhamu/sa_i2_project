@@ -1,0 +1,143 @@
+{
+    "status": "success",
+    "data": {
+        "resultType": "vector",
+        "result": [
+            {
+                "metric": {
+                    "pod": "kubelet-serving-cert-approver-58b48cf746-r6t5s"
+                },
+                "value": [
+                    1706271759.016,
+                    "0.3152009999999734"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "elasticsearch-es-master-0"
+                },
+                "value": [
+                    1706271759.016,
+                    "2.737882874999741"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "apps-logging-fluentbit-ll582"
+                },
+                "value": [
+                    1706271759.016,
+                    "0.5314401324259976"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "apps-logging-fluentbit-s8npl"
+                },
+                "value": [
+                    1706271759.016,
+                    "0.4748309712159877"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "apps-logging-fluentbit-24lpn"
+                },
+                "value": [
+                    1706271759.016,
+                    "1.2784612833692734"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "apps-logging-fluentd-0"
+                },
+                "value": [
+                    1706271759.016,
+                    "8.786597202137012"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "kafka-cluster-kafka-0"
+                },
+                "value": [
+                    1706271759.016,
+                    "2.559145047783482"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "kibana-kb-7f4666f64d-4hzbl"
+                },
+                "value": [
+                    1706271759.016,
+                    "3.4386052605135644"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "kustomize-controller-6d95f95b78-8d68q"
+                },
+                "value": [
+                    1706271759.016,
+                    "0.28713404480463584"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "image-automation-controller-7764f8957c-8gw6q"
+                },
+                "value": [
+                    1706271759.016,
+                    "0.3141786358128585"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "image-reflector-controller-84c449dc57-9zrcz"
+                },
+                "value": [
+                    1706271759.016,
+                    "3.1068511557806966"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "helm-controller-674b78f654-nnc2q"
+                },
+                "value": [
+                    1706271759.016,
+                    "0.598069923067199"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "source-controller-86d9c8fd4f-ks2k7"
+                },
+                "value": [
+                    1706271759.016,
+                    "0.9859484537647475"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "notification-controller-76dc5d768-4kl9m"
+                },
+                "value": [
+                    1706271759.016,
+                    "0.22384349118867605"
+                ]
+            },
+            {
+                "metric": {
+                    "pod": "strimzi-cluster-operator-85b9b646cc-sh5kh"
+                },
+                "value": [
+                    1706271759.016,
+                    "1.198975602100449"
+                ]
+            }
+        ]
+    }
+}

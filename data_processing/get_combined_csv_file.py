@@ -1,13 +1,14 @@
 import os
 import json
 import pandas as pd
-from data_processing.combine_files import get_combined_csv
+from combine_files import get_combined_csv
 
 def create_csv_file(file_name):
-    with open(os.path.join("data", f"{file_name}.json")) as f:
+    with open(os.path.join("data", "cluster2", "json_data", f"{file_name}.json")) as f:
         json_data = json.load(f)
 
-    result_data = json_data["record"]["data"]["result"]
+    # result_data = json_data["record"]["data"]["result"]
+    result_data = json_data["data"]["result"]
 
     complete_data = []
     for datum in result_data:
@@ -37,9 +38,9 @@ def create_csv_files(file_path):
         df.to_csv(os.path.join(file_path, f"{file_name}.csv"), index=False)
 
 if __name__ == "__main__":
-    file_path = r"data\cluster1\csv_files"
+    file_path = r"data\cluster2\csv_files"
     create_csv_files(file_path)
-    combined_csv_path = r"data\cluster1"
-    combined_df = get_combined_csv(file_path, combined_csv_path)
+    combined_csv_path = r"data\cluster2"
+    combined_df = get_combined_csv(file_path)
     combined_df.to_csv(os.path.join(combined_csv_path, "complete_data.csv"), index=False)
     
