@@ -28,8 +28,20 @@ The requirements of the project were to have a dashboard that:
 * provides information on the energy efficiency of the cluster in terms of CO2 consumption, and
 * provides useful information on optimizing the use of cluster resources.
 
-Our system achieves these requirements through having:
+Our system achieves these requirements by having:
 * a dashboard that provides monitoring of the cluster resources.
 * an analytics component that computes the CO2 consumption based on resource utilization.
 * a predictive model that aids in decision-making for optimizing resource usage of the cluster.
+
+# Grafana Dashboard for Kubernetes Cluster RAM and CPU Utilization
+
+#### The memory and CPU usage in percentage of all nodes in the cluster:
+<img width="994" alt="Screenshot 2024-01-30 at 9 36 44 AM" src="https://github.com/lhamu/sa_i2_project/assets/33247422/7b9351ff-712b-4fbb-8f3f-e732db4ea8f7">
+
+#### The memory usage in a cluster grouped by Kubernetes namespace, deployment and pod:
+<img width="994" alt="Screenshot 2024-01-30 at 9 36 54 AM" src="https://github.com/lhamu/sa_i2_project/assets/33247422/5bb7391b-8b7a-4125-b48f-e9c9448e2cff">
+
+#### The CPU usage in a cluster grouped by Kubernetes namespace, deployment and pod:
+<img width="994" alt="Screenshot 2024-01-30 at 9 37 18 AM" src="https://github.com/lhamu/sa_i2_project/assets/33247422/8ef71ac1-b73a-4ce2-8114-ce3454a86478">
+
 
