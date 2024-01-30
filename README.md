@@ -35,13 +35,13 @@ Our system achieves these requirements by having:
 
 # Grafana Dashboard for Kubernetes Cluster RAM and CPU Utilization
 
-#### The memory and CPU usage in percentage of all nodes in the cluster:
+#### The memory and CPU usage in the percentage of all nodes(table in the right showing the list of all nodes) in the cluster:
 <img width="994" alt="Screenshot 2024-01-30 at 9 36 44 AM" src="https://github.com/lhamu/sa_i2_project/assets/33247422/7b9351ff-712b-4fbb-8f3f-e732db4ea8f7">
 
-#### The memory usage in a cluster grouped by Kubernetes namespace, deployment and pod:
+#### The memory usage in a cluster grouped by Kubernetes namespace, deployment, and pod:
 <img width="994" alt="Screenshot 2024-01-30 at 9 36 54 AM" src="https://github.com/lhamu/sa_i2_project/assets/33247422/5bb7391b-8b7a-4125-b48f-e9c9448e2cff">
 
-#### The CPU usage in a cluster grouped by Kubernetes namespace, deployment and pod:
+#### The CPU usage in a cluster grouped by Kubernetes namespace, deployment, and pod:
 <img width="994" alt="Screenshot 2024-01-30 at 9 37 18 AM" src="https://github.com/lhamu/sa_i2_project/assets/33247422/8ef71ac1-b73a-4ce2-8114-ce3454a86478">
 
 
